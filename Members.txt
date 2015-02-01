@@ -1,5 +1,6 @@
 Jack Brown
 <<<<<<< HEAD
+<<<<<<< HEAD
 Emily Black
 Adrienne Yang
 =======
@@ -9,3 +10,5 @@ Marc Thibodeau
 poop
 >>>>>>> origin/master
 >>>>>>> origin/master
+Marc Thibodeau
+Emily Black
