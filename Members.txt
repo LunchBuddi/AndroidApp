@@ -1,14 +1,5 @@
 Jack Brown
-<<<<<<< HEAD
-<<<<<<< HEAD
 Emily Black
-Adrienne Yang
-=======
-<<<<<<< HEAD
+Adrienne Yang - adrienne.yang.14@gmail.com
 Marc Thibodeau
-=======
-poop
->>>>>>> origin/master
->>>>>>> origin/master
-Marc Thibodeau
-Emily Black
+
