@@ -1,17 +1,3 @@
-Jack Brown
-<<<<<<< HEAD
-<<<<<<< HEAD
-Emily Black
-Adrienne Yang
-=======
-<<<<<<< HEAD
-Marc Thibodeau
-=======
-poop
->>>>>>> origin/master
->>>>>>> origin/master
-Marc Thibodeau
-Emily Black
 Jack Brown	jack.brown.255@gmail.com	jack.brown@ou.edu
 Emily Black
 Adrienne Yang
