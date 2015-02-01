@@ -1,6 +1,3 @@
 Jack Brown
-<<<<<<< HEAD
 Marc Thibodeau
-=======
-poop
->>>>>>> origin/master
+Emily Black
