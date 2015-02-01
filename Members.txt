@@ -12,3 +12,7 @@ poop
 >>>>>>> origin/master
 Marc Thibodeau
 Emily Black
+Jack Brown	jack.brown.255@gmail.com	jack.brown@ou.edu
+Emily Black
+Adrienne Yang
+Marc Thibodeau: abderion7@gmail.com or marc@ou.edu
