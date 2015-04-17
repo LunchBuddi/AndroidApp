@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/homepage"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:id="@+id/topbarlogo"
+        android:src="@mipmap/mainpagetopimage"
+        android:layout_gravity="top"
+        android:focusableInTouchMode="false"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/registerpage2" android:layout_width="match_parent"
+        android:layout_height="425dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="1"
+        >
+
+
+</LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/registerpage2ll" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_weight="0.200"
+        >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:id="@+id/bottomMenu"
+        android:src="@mipmap/mapbutton"
+        android:layout_weight="0.15"
+        android:layout_gravity="top"
+        android:focusableInTouchMode="false"
+        />
+</LinearLayout>
+
+</LinearLayout>

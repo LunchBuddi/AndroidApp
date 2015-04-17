@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array
+        name="string_array_firstItem">
+        <item
+            >text_string</item>
+    </string-array>
+
+    <style name="registerPage1Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">30dp</item>
+
+    </style>
+</resources>

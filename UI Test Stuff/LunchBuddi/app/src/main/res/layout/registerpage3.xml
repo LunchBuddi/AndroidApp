@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registerpage3_1" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+    <ImageView
+        android:id="@+id/topbarregisterlogo"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="fill_horizontal"
+        android:focusableInTouchMode="false"
+        android:src="@mipmap/registeraccountbanner"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/registerpage3_2" android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="1"
+        >
+
+        <Spinner
+            android:id="@+id/spinnerForSunday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:hint="Favorite Places to Eat"
+            />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I Bring My Lunch"
+            android:id="@+id/checkBox"
+            android:layout_weight="0.20"
+            android:layout_gravity="center_horizontal" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I Don't Bring My Lunch"
+            android:id="@+id/checkBox2"
+            android:layout_weight="0.20"
+            android:layout_gravity="center_horizontal" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I Do Both"
+            android:id="@+id/checkBox3"
+            android:layout_weight="0.20"
+            android:layout_gravity="center_horizontal" />
+
+        <Spinner
+            android:id="@+id/spinnerForCurrentClubsTheirIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:hint="Select Clubs You're In"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finish"
+            android:id="@+id/nextButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.15"
+            android:onClick="MethodToGoToNewLoginPage"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

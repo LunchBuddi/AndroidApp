@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registerpage1" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+    <ImageView
+        android:id="@+id/topbarregisterlogo"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="fill_horizontal"
+        android:focusableInTouchMode="false"
+        android:src="@mipmap/registeraccountbanner"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/registerpage2" android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="1"
+        >
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_marginTop="30dp"
+        style="@style/registerPage1Style"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="Full Name"
+        android:layout_weight="0.10"
+        android:inputType="textPersonName"
+       />
+
+    <EditText
+        android:id="@+id/ouEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_weight="0.10"
+        android:hint="OU Email"
+        android:inputType="textEmailAddress" />
+
+    <Spinner
+        android:id="@+id/spinnerForMajors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:hint="Major"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerForGradYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:hint="Graduation Year"
+        />
+
+    <EditText
+        android:id="@+id/passWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:layout_weight="0.10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next Page"
+            android:id="@+id/nextButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.15"
+            android:onClick="MethodToGoToRegisterpage2"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
