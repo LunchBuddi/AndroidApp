@@ -29,8 +29,8 @@
     <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/GridLayout1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:columnCount="4"
         android:rowCount="1"
         tools:context=".GridXMLActivity" >
@@ -38,28 +38,32 @@
         <ImageView
             android:id="@+id/image1"
             android:layout_column="0"
-            android:layout_row="1"
+            android:layout_row="0"
+            android:layout_width="90dp"
             android:src="@mipmap/mapbutton"
              />
 
         <ImageView
             android:id="@+id/image2"
             android:layout_column="1"
-            android:layout_row="1"
+            android:layout_row="0"
+            android:layout_width="90dp"
             android:src="@mipmap/findlunchbutton"
              />
 
         <ImageView
             android:id="@+id/image3"
             android:layout_column="2"
-            android:layout_row="1"
+            android:layout_row="0"
+            android:layout_width="90dp"
             android:src="@mipmap/socialmediabutton"
              />
 
         <ImageView
             android:id="@+id/image4"
             android:layout_column="3"
-            android:layout_row="1"
+            android:layout_row="0"
+            android:layout_width="90dp"
             android:src="@mipmap/settingsbutton"
              />
 
