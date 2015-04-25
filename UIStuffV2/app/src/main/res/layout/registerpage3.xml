@@ -37,7 +37,7 @@
             android:text="I Bring My Lunch"
             android:id="@+id/checkBox"
             android:layout_weight="0.20"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center|left" />
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
             android:text="I Don't Bring My Lunch"
             android:id="@+id/checkBox2"
             android:layout_weight="0.20"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center|left" />
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -53,7 +53,7 @@
             android:text="I Do Both"
             android:id="@+id/checkBox3"
             android:layout_weight="0.20"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center|left" />
 
         <Spinner
             android:id="@+id/spinnerForCurrentClubsTheirIn"
