@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lunchbuddi.xmlstuffv2.MenuNavigationFrag">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/GridLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="1"
+        tools:context=".GridXMLActivity" >
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_width="89dp"
+        android:src="@mipmap/mapbutton"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_width="92dp"
+        android:src="@mipmap/findlunchbutton"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:layout_width="93dp"
+        android:src="@mipmap/socialmediabutton"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:layout_width="90dp"
+        android:src="@mipmap/settingsbutton"
+        android:layout_height="wrap_content" />
+</GridLayout>
+</FrameLayout>
