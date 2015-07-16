@@ -1,19 +1,22 @@
 <resources>
     <string name="app_name">Lunch Buddi</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- activity_login.xml STRINGS -->
     <string name="Login">Login</string>
+    <string name="MAINLOGO">Lunch Buddi Logo</string>
     <string name="OU_Email">OU Email</string>
     <string name="Password">Password</string>
     <string name="Register">Register</string>
-    <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-
+    <!-- Strings related to login (not used yet)-->
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
+    <!-- END -->
+
+    <!-- login_page_new_user.xml STRINGS -->
+    <string name="Verification_Code">Verification Code</string>
+    <!-- END -->
+
+
 </resources>
