@@ -1,4 +1,5 @@
 <resources>
+    <!-- NOTE: SOME STRINGS ARE USED IN MULTIPLE XML PAGES -->
     <string name="app_name">Lunch Buddi</string>
 
     <!-- activity_login.xml STRINGS -->
@@ -16,6 +17,20 @@
 
     <!-- login_page_new_user.xml STRINGS -->
     <string name="Verification_Code">Verification Code</string>
+    <!-- END -->
+
+    <!-- registerpage1.xml STRINGS -->
+    <string name="Full_Name">Full Name</string>
+    <string name="Chosen_Major">Chosen Major</string>
+    <string name="Graduation_Year">Expected Graduation Year</string>
+    <string name="New_Password">New Password</string>
+    <string name="Next_Page">Next Page</string>
+    <string name="Register_Account_Banner">Register Account</string>
+    <!-- END -->
+
+    <!--registerpage2.xml STRINGS -->
+
+
     <!-- END -->
 
 
