@@ -1,5 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/registerpage3_1" android:layout_width="match_parent"
+    android:id="@+id/registerpage3_1"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="1"
@@ -13,62 +14,71 @@
         android:src="@mipmap/registeraccountbanner"
         />
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/registerpage3_2" android:layout_width="match_parent"
+    <LinearLayout
+        android:id="@+id/registerpage3_2"
+        android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
         android:weightSum="1"
         >
 
         <Spinner
+            android:layout_marginBottom="10dp"
             android:id="@+id/spinnerForSunday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.10"
-            android:hint="Favorite Places to Eat"
+            android:hint="@string/Favorite_Places_to_Eat"
             />
 
 
         <CheckBox
-            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="I Bring My Lunch"
-            android:id="@+id/checkBox"
-            android:layout_weight="0.20"
-            android:layout_gravity="center|left" />
+            android:text="@string/I_Bring_My_Lunch"
+            android:id="@+id/ibringmylunchCHECKBOX"
+            android:layout_weight="0.10"
+            android:layout_gravity="center|start" />
 
         <CheckBox
-            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="I Don't Bring My Lunch"
-            android:id="@+id/checkBox2"
-            android:layout_weight="0.20"
-            android:layout_gravity="center|left" />
+            android:text="@string/I_Dont_Bring_My_Lunch"
+            android:id="@+id/idontbringmylunchCHECKBOX"
+            android:layout_weight="0.10"
+            android:layout_gravity="center|start" />
 
         <CheckBox
-            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="I Do Both"
-            android:id="@+id/checkBox3"
-            android:layout_weight="0.20"
-            android:layout_gravity="center|left" />
+            android:text="@string/I_Do_Both"
+            android:id="@+id/idobothCHECKBOX"
+            android:layout_weight="0.10"
+            android:layout_gravity="center|start" />
 
         <Spinner
+            android:layout_marginBottom="10dp"
             android:id="@+id/spinnerForCurrentClubsTheirIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.10"
-            android:hint="Select Clubs You're In"
+            android:hint="@string/Clubs_Youre_In"
             />
 
 
         <Button
+            android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Finish"
-            android:id="@+id/nextButton"
+            android:text="@string/Finish"
+            android:id="@+id/buttonToNewLoginPage"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.15"
             android:onClick="MethodToGoToNewLoginPage"

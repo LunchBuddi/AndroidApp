@@ -28,7 +28,7 @@
     <string name="Register_Account_Banner">Register Account</string>
     <!-- END -->
 
-    <!--registerpage2.xml STRINGS -->
+    <!-- registerpage2.xml STRINGS -->
     <string name="Availability_Banner">Availability</string>
     <string name="Monday_Availability">Monday Availability</string>
     <string name="Tuesday_Availability">Tuesday Availability</string>
@@ -37,6 +37,15 @@
     <string name="Friday_Availability">Friday Availability</string>
     <string name="Saturday_Availability">Saturday Availability</string>
     <string name="Sunday_Availability">Sunday Availability</string>
+    <!-- END -->
+
+    <!-- registerpage3.xml STRINGS -->
+    <string name="Favorite_Places_to_Eat">Favorite Places to Eat</string>
+    <string name="I_Bring_My_Lunch">I Bring My Lunch</string>
+    <string name="I_Dont_Bring_My_Lunch">I Don't Bring My Lunch</string>
+    <string name="I_Do_Both">I Do Both</string>
+    <string name="Clubs_Youre_In">Clubs You're In</string>
+    <string name="Finish">Finish</string>
     <!-- END -->
 
 
