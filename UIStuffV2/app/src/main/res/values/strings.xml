@@ -29,8 +29,14 @@
     <!-- END -->
 
     <!--registerpage2.xml STRINGS -->
-
-
+    <string name="Availability_Banner">Availability</string>
+    <string name="Monday_Availability">Monday Availability</string>
+    <string name="Tuesday_Availability">Tuesday Availability</string>
+    <string name="Wednesday_Availability">Wednesday Availability</string>
+    <string name="Thursday_Availability">Thursday Availability</string>
+    <string name="Friday_Availability">Friday Availability</string>
+    <string name="Saturday_Availability">Saturday Availability</string>
+    <string name="Sunday_Availability">Sunday Availability</string>
     <!-- END -->
 
 

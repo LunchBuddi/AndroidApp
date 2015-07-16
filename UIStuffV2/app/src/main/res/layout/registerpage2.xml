@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="1">
-    
+
     <ImageView
         android:contentDescription="@string/Register_Account_Banner"
         android:id="@+id/topbarregisterlogo"
@@ -13,97 +13,108 @@
         android:layout_height="72dp"
         android:layout_gravity="fill_horizontal"
         android:focusableInTouchMode="false"
-        android:src="@mipmap/registeraccountbanner"
-        />
+        android:src="@mipmap/registeraccountbanner"/>
 
     <ImageView
+        android:contentDescription="@string/Availability_Banner"
         android:id="@+id/availabilitybanner"
-        android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
         android:focusableInTouchMode="false"
-        android:src="@mipmap/availbanner"
-        />
+        android:src="@mipmap/availbanner"/>
 
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
 
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/registerpage2" android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:weightSum="1"
+    <LinearLayout
+            android:id="@+id/registerPage2.2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:weightSum="1"
         >
 
         <Spinner
-        android:id="@+id/spinnerForMonday"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.10"
-        android:hint="Monday Availability"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/spinnerForMonday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:hint="@string/Monday_Availability"
         />
 
         <Spinner
-        android:id="@+id/spinnerForTuesday"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.10"
-        android:hint="Tuesday Availability"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/spinnerForTuesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:hint="@string/Tuesday_Availability"
         />
 
         <Spinner
-        android:id="@+id/spinnerForWednesday"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.10"
-        android:hint="Wednesday Availability"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/spinnerForWednesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:hint="@string/Wednesday_Availability"
         />
 
         <Spinner
-        android:id="@+id/spinnerForThursday"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.10"
-        android:hint="Thursday Availability"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/spinnerForThursday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:hint="@string/Thursday_Availability"
         />
 
         <Spinner
-        android:id="@+id/spinnerForFriday"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.10"
-        android:hint="Friday Availability"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/spinnerForFriday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:hint="@string/Friday_Availability"
         />
 
         <Spinner
-        android:id="@+id/spinnerForSaturday"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.10"
-        android:hint="Saturday Availability"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/spinnerForSaturday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:hint="@string/Saturday_Availability"
         />
 
         <Spinner
-        android:id="@+id/spinnerForSunday"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.10"
-        android:hint="Sunday Availability"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/spinnerForSunday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:hint="@string/Sunday_Availability"
         />
 
         <Button
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Next Page"
-            android:id="@+id/nextButton"
+            android:text="@string/Next_Page"
+            android:id="@+id/buttonToRegisterPage3"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.15"
-            android:onClick="MethodToGoToRegisterpage3"
+            android:onClick="MethodToGoToRegisterPage3"
             />
 
 
