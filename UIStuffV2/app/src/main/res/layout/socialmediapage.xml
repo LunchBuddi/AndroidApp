@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/socialmediapage1"
+    android:weightSum="1">
+
+    <ImageView
+        android:contentDescription="@string/socialmediaButton"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:id="@+id/socialmediabanner"
+        android:src="@mipmap/socialmediabanner"
+        android:layout_gravity="top"
+        android:focusableInTouchMode="false"
+        />
+
+    <!-- FIRST ROW OF BUTTONS -->
+
+
+    <LinearLayout
+        android:id="@+id/socialmediapage1.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/instagramICON"
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/instagramButton"
+            android:src="@mipmap/instagramicon"
+            android:onClick="methodToGoToInstagramWebsite"/>
+
+        <ImageButton
+            android:id="@+id/facebookICON"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/facebookButton"
+            android:src="@mipmap/facebookicon"
+            android:onClick="methodToGoToFacebookWebsite"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/socialmediapage1.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/youtubeICON"
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/youtubeButton"
+            android:src="@mipmap/youtubeicon"
+            android:onClick="methodToGoToYoutubeWebsite"/>
+
+        <ImageButton
+            android:id="@+id/twitterICON"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/twitterButton"
+            android:src="@mipmap/twittericon"
+            android:onClick="methodToGoToTwitterWebsite"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/socialmediapage1.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/pinterestICON"
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/pinterestButton"
+            android:src="@mipmap/pinteresticon"
+            android:onClick="methodToGoToPinterestWebsite"/>
+
+        <ImageButton
+            android:id="@+id/tumblrICON"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/tumblrButton"
+            android:src="@mipmap/tumblricon"
+            android:onClick="methodToGoToTumblrPage"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="1">
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/backtoHomeButton"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/backtoHomeButton"
+            android:layout_gravity="center_horizontal"
+            android:onClick="methodToGoToHomepage" />
+        </LinearLayout>
+
+</LinearLayout>

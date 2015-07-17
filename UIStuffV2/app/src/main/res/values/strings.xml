@@ -56,10 +56,17 @@
     <string name="inboxButton">Inbox</string>
     <string name="socialmediaButton">Social Media</string>
     <string name="settingsButton">Settings</string>
+    <!-- END -->
 
 
-
-
+    <!-- socialmediapage.xml STRINGS -->
+    <string name="instagramButton">Instagram</string>
+    <string name="facebookButton">Facebook</string>
+    <string name="youtubeButton">YouTube</string>
+    <string name="twitterButton">Twitter</string>
+    <string name="pinterestButton">Pinterest</string>
+    <string name="tumblrButton">Tumblr</string>
+    <string name="backtoHomeButton">Back to home</string>
     <!-- END -->
 
 
