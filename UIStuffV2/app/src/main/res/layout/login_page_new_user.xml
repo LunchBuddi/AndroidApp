@@ -8,11 +8,13 @@
     android:weightSum="1">
 
     <ImageView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:layout_width="350dp"
         android:layout_height="250dp"
         android:id="@+id/logo"
         android:contentDescription="@string/MAINLOGO"
-        android:layout_gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
         android:src="@mipmap/TransparentLogo"/>
     <!-- We're not quite sure who owns this ^ image. Check with Adrienne -->
 
@@ -74,6 +76,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:gravity="center_horizontal"
         android:weightSum="1">
 

@@ -51,6 +51,10 @@
     <!-- homepage.xml STRINGS -->
     <string name="Home_Banner">Home</string>
     <string name="scheduleButton">Schedule</string>
+    <string name="findlunchButton">Find Lunch</string>
+    <string name="mapButton">Map</string>
+    <string name="inboxButton">Inbox</string>
+
 
 
 

@@ -17,24 +17,63 @@
         android:focusableInTouchMode="false"
         />
 
-
+        <!-- FIRST ROW OF BUTTONS -->
         <LinearLayout
             android:id="@+id/homepage1.1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
             android:orientation="horizontal"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:layout_gravity="center_horizontal"
             android:weightSum="1">
             
-        <ImageButton
-            android:layout_width="130dp"
-            android:layout_height="115dp"
-            android:contentDescription="@string/scheduleButton"
-            android:src="@mipmap/scheduleicon"
-            android:onClick="methodToGoToSchedulePage"/>
+            <ImageButton
+                android:id="@+id/scheduleICON"
+                android:paddingRight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/scheduleButton"
+                android:src="@mipmap/scheduleicon"
+                android:onClick="methodToGoToSchedulePage"/>
 
-            
+            <ImageButton
+                android:id="@+id/findlunchICON"
+                android:paddingLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/findlunchButton"
+                android:src="@mipmap/findlunchbutton"
+                android:onClick="methodToGoToFindLunchPage"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homepage1.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/mapICON"
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/mapButton"
+            android:src="@mipmap/mapbutton"
+            android:onClick="methodToGoToMapPage"/>
+
+        <ImageButton
+            android:id="@+id/inboxICON"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/inboxButton"
+            android:src="@mipmap/inboxbutton"
+            android:onClick="methodToGoToInboxPage"/>
+
         </LinearLayout>
 
 </LinearLayout>
