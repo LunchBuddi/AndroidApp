@@ -76,4 +76,33 @@
 
         </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/homepage1.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/socialmediaICON"
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/socialmediaButton"
+            android:src="@mipmap/socialmediabutton"
+            android:onClick="methodToGoToSocialMediaPage"/>
+
+        <ImageButton
+            android:id="@+id/settingsICON"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/settingsButton"
+            android:src="@mipmap/settingsbutton"
+            android:onClick="methodToGoToSettingsPage"/>
+
+        </LinearLayout>
+
 </LinearLayout>
