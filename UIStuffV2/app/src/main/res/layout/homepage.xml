@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/homepage"
+    android:id="@+id/homepage1"
     android:weightSum="1">
 
     <ImageView
+        android:contentDescription="@string/Home_Banner"
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:id="@+id/topbarlogo"
-        android:src="@mipmap/mainpagetopimage"
+        android:src="@mipmap/homebanner"
         android:layout_gravity="top"
         android:focusableInTouchMode="false"
         />
 
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/registerpage2" android:layout_width="match_parent"
-            android:layout_height="425dp"
-            android:orientation="vertical"
+        <LinearLayout
+            android:id="@+id/homepage1.1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:weightSum="1"
-            >
+            android:weightSum="1">
+            
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="115dp"
+            android:contentDescription="@string/scheduleButton"
+            android:src="@mipmap/scheduleicon"
+            android:onClick="methodToGoToSchedulePage"/>
 
+            
         </LinearLayout>
-
-    <fragment
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:name="com.lunchbuddi.xmlstuffv2.MenuNavigationFrag"
-        tools:layout="@layout/fragment_menu_navigation" />
 
 </LinearLayout>

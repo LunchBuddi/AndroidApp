@@ -48,5 +48,13 @@
     <string name="Finish">Finish</string>
     <!-- END -->
 
+    <!-- homepage.xml STRINGS -->
+    <string name="Home_Banner">Home</string>
+    <string name="scheduleButton">Schedule</string>
+
+
+
+    <!-- END -->
+
 
 </resources>
