@@ -77,5 +77,13 @@
 
     <!-- END -->
 
+    <!-- settingpage.xml STRINGS -->
+    <string name="SettingsBanner">Settings</string>
+    <string name="Edit_Profile">Edit Profile</string>
+
+
+
+    <!-- END -->
+
 
 </resources>
