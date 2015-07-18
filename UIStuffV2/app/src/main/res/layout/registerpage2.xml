@@ -8,7 +8,7 @@
 
     <ImageView
         android:contentDescription="@string/Register_Account_Banner"
-        android:id="@+id/topbarregisterlogo"
+        android:id="@+id/registeraccountbanner"
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:layout_gravity="fill_horizontal"
@@ -31,7 +31,7 @@
 
 
     <LinearLayout
-            android:id="@+id/registerPage2.2"
+            android:id="@+id/registerPage2.1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"

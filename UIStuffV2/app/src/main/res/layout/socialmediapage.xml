@@ -32,6 +32,7 @@
         <ImageButton
             android:id="@+id/instagramICON"
             android:paddingRight="30dp"
+            android:paddingLeft="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/instagramButton"
@@ -41,6 +42,7 @@
         <ImageButton
             android:id="@+id/facebookICON"
             android:paddingLeft="30dp"
+            android:paddingRight="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/facebookButton"
@@ -61,6 +63,7 @@
         <ImageButton
             android:id="@+id/youtubeICON"
             android:paddingRight="30dp"
+            android:paddingLeft="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/youtubeButton"
@@ -70,6 +73,7 @@
         <ImageButton
             android:id="@+id/twitterICON"
             android:paddingLeft="30dp"
+            android:paddingRight="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/twitterButton"
@@ -90,6 +94,7 @@
         <ImageButton
             android:id="@+id/pinterestICON"
             android:paddingRight="30dp"
+            android:paddingLeft="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/pinterestButton"
@@ -99,6 +104,7 @@
         <ImageButton
             android:id="@+id/tumblrICON"
             android:paddingLeft="30dp"
+            android:paddingRight="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/tumblrButton"

@@ -1,12 +1,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/registerpage3_1"
+    android:id="@+id/registerpage3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="1"
     >
     <ImageView
-        android:id="@+id/topbarregisterlogo"
+        android:id="@+id/registeraccountbanner"
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:layout_gravity="fill_horizontal"
@@ -15,7 +15,7 @@
         />
 
     <LinearLayout
-        android:id="@+id/registerpage3_2"
+        android:id="@+id/registerpage3.1"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"

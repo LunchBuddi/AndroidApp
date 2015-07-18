@@ -56,6 +56,7 @@
     <string name="inboxButton">Inbox</string>
     <string name="socialmediaButton">Social Media</string>
     <string name="settingsButton">Settings</string>
+    <string name="logoutButton">Logout</string>
     <!-- END -->
 
 
@@ -67,6 +68,13 @@
     <string name="pinterestButton">Pinterest</string>
     <string name="tumblrButton">Tumblr</string>
     <string name="backtoHomeButton">Back to home</string>
+    <!-- END -->
+
+    <!-- inboxpage.xml STRINGS -->
+    <string name="inboxBanner">Inbox</string>
+    <string name="CurrentInboxMessages">Messages</string>
+    <string name="newMessageButton">New Message</string>
+
     <!-- END -->
 
 

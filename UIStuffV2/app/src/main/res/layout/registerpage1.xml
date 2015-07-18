@@ -9,7 +9,7 @@
 
     <ImageView
         android:contentDescription="@string/Register_Account_Banner"
-        android:id="@+id/topbarregisterlogo"
+        android:id="@+id/registeraccountbanner"
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:layout_gravity="fill_horizontal"
@@ -26,7 +26,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:paddingTop="10dp"
+            android:paddingTop="25dp"
             android:weightSum="1"
             >
 
