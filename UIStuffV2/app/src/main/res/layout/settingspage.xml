@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:orientation="horizontal"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <ImageView
         android:contentDescription="@string/SettingsBanner"
@@ -14,18 +13,129 @@
         android:focusableInTouchMode="false"
         />
 
-        <LinearLayout
-            android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/editprofileBUTTON"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/Edit_Profile"
+            android:src="@mipmap/editprofilebutton"
+            android:onClick="methodToGoToRegisterPage1"/>
+
+        <ImageButton
+            android:id="@+id/deleteaccountBUTTON"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/deleteaccountButton"
+            android:src="@mipmap/deleteaccountbutton"
+            android:onClick="methodToGoToDeleteAccountPage"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/reportabuseBUTTON"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/Report_Abuse"
+            android:src="@mipmap/reportabusebutton"
+            android:onClick="methodToGoToReportAbusePage"/>
+
+        <ImageButton
+            android:id="@+id/AboutUsBUTTON"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/aboutusButton"
+            android:src="@mipmap/aboutusbutton"
+            android:onClick="methodToGoToAboutUsPage"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/feedbackBUTTON"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/feedback"
+            android:src="@mipmap/feedbackbutton"
+            android:onClick="methodToGoToFeedbackPage"/>
+
+        <ImageButton
+            android:id="@+id/helpBUTTON"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/helpButton"
+            android:src="@mipmap/helpbutton"
+            android:onClick="methodToGoToHelpPage"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/sponsorsBUTTON"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/sponsors"
+            android:src="@mipmap/sponsorsbutton"
+            android:onClick="methodToGoToSponsorsPage"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="1">
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/backtoHomeButton"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/backtoHomeButton"
             android:layout_gravity="center_horizontal"
-            android:orientation="horizontal">
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-
-
-        </LinearLayout>
-
+            android:onClick="methodToGoToHomepage" />
+    </LinearLayout>
 </LinearLayout>

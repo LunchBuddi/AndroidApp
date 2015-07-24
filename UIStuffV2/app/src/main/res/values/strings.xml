@@ -4,7 +4,7 @@
 
     <!-- activity_login.xml STRINGS -->
     <string name="Login">Login</string>
-    <string name="MAINLOGO">Lunch Buddi Logo</string>
+    <string name="MAINLOGO">Logo</string>
     <string name="OU_Email">OU Email</string>
     <string name="Password">Password</string>
     <string name="Register">Register</string>
@@ -20,12 +20,12 @@
     <!-- END -->
 
     <!-- registerpage1.xml STRINGS -->
+    <string name="Register_Account_Banner">Register Account</string>
     <string name="Full_Name">Full Name</string>
     <string name="Chosen_Major">Chosen Major</string>
     <string name="Graduation_Year">Expected Graduation Year</string>
     <string name="New_Password">New Password</string>
     <string name="Next_Page">Next Page</string>
-    <string name="Register_Account_Banner">Register Account</string>
     <!-- END -->
 
     <!-- registerpage2.xml STRINGS -->
@@ -71,15 +71,21 @@
     <!-- END -->
 
     <!-- inboxpage.xml STRINGS -->
-    <string name="inboxBanner">Inbox</string>
     <string name="CurrentInboxMessages">Messages</string>
+    <string name="inboxBanner">Inbox</string>
     <string name="newMessageButton">New Message</string>
 
     <!-- END -->
 
     <!-- settingpage.xml STRINGS -->
-    <string name="SettingsBanner">Settings</string>
     <string name="Edit_Profile">Edit Profile</string>
+    <string name="deleteaccountButton">Delete Account</string>
+    <string name="SettingsBanner">Settings</string>
+    <string name="aboutusButton">About Us</string>
+    <string name="Report_Abuse">Report Abuse</string>
+    <string name="feedback">Feedback</string>
+    <string name="helpButton">Help</string>
+    <string name="sponsors">Sponsors</string>
 
 
 
