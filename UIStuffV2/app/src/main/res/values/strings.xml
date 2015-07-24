@@ -70,12 +70,6 @@
     <string name="backtoHomeButton">Back to home</string>
     <!-- END -->
 
-    <!-- inboxpage.xml STRINGS -->
-    <string name="CurrentInboxMessages">Messages</string>
-    <string name="inboxBanner">Inbox</string>
-    <string name="newMessageButton">New Message</string>
-
-    <!-- END -->
 
     <!-- settingpage.xml STRINGS -->
     <string name="Edit_Profile">Edit Profile</string>
@@ -86,8 +80,12 @@
     <string name="feedback">Feedback</string>
     <string name="helpButton">Help</string>
     <string name="sponsors">Sponsors</string>
+    <!-- END -->
 
-
+    <!-- inboxpage.xml STRINGS -->
+    <string name="CurrentInboxMessages">Messages</string>
+    <string name="inboxBanner">Inbox</string>
+    <string name="newMessageButton">New Message</string>
 
     <!-- END -->
 
