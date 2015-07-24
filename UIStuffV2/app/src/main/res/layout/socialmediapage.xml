@@ -4,14 +4,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/socialmediapage1"
     android:weightSum="1">
 
     <ImageView
         android:contentDescription="@string/socialmediaButton"
         android:layout_width="match_parent"
         android:layout_height="72dp"
-        android:id="@+id/socialmediabanner"
         android:src="@mipmap/socialmediabanner"
         android:layout_gravity="top"
         android:focusableInTouchMode="false"
@@ -21,7 +19,6 @@
 
 
     <LinearLayout
-        android:id="@+id/socialmediapage1.1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="5dp"
@@ -30,7 +27,7 @@
         android:weightSum="1">
 
         <ImageButton
-            android:id="@+id/instagramICON"
+            android:id="@+id/instagramBUTTON"
             android:paddingRight="30dp"
             android:paddingLeft="30dp"
             android:layout_width="wrap_content"
@@ -40,7 +37,7 @@
             android:onClick="methodToGoToInstagramWebsite"/>
 
         <ImageButton
-            android:id="@+id/facebookICON"
+            android:id="@+id/facebookBUTTON"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:layout_width="wrap_content"
@@ -52,7 +49,6 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/socialmediapage1.2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -61,7 +57,7 @@
         android:weightSum="1">
 
         <ImageButton
-            android:id="@+id/youtubeICON"
+            android:id="@+id/youtubeBUTTON"
             android:paddingRight="30dp"
             android:paddingLeft="30dp"
             android:layout_width="wrap_content"
@@ -71,7 +67,7 @@
             android:onClick="methodToGoToYoutubeWebsite"/>
 
         <ImageButton
-            android:id="@+id/twitterICON"
+            android:id="@+id/twitterBUTTON"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:layout_width="wrap_content"
@@ -83,7 +79,6 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/socialmediapage1.3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -92,7 +87,7 @@
         android:weightSum="1">
 
         <ImageButton
-            android:id="@+id/pinterestICON"
+            android:id="@+id/pinterestBUTTON"
             android:paddingRight="30dp"
             android:paddingLeft="30dp"
             android:layout_width="wrap_content"
@@ -102,7 +97,7 @@
             android:onClick="methodToGoToPinterestWebsite"/>
 
         <ImageButton
-            android:id="@+id/tumblrICON"
+            android:id="@+id/tumblrBUTTON"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:layout_width="wrap_content"

@@ -4,14 +4,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/homepage1"
     android:weightSum="1">
 
     <ImageView
         android:contentDescription="@string/Home_Banner"
         android:layout_width="match_parent"
         android:layout_height="72dp"
-        android:id="@+id/homebanner"
         android:src="@mipmap/homebanner"
         android:layout_gravity="top"
         android:focusableInTouchMode="false"
@@ -19,7 +17,6 @@
 
         <!-- FIRST ROW OF BUTTONS -->
         <LinearLayout
-            android:id="@+id/homepage1.1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="5dp"
@@ -28,7 +25,7 @@
             android:weightSum="1">
             
             <ImageButton
-                android:id="@+id/scheduleICON"
+                android:id="@+id/scheduleBUTTON"
                 android:paddingRight="30dp"
                 android:paddingLeft="30dp"
                 android:layout_width="wrap_content"
@@ -38,7 +35,7 @@
                 android:onClick="methodToGoToSchedulePage"/>
 
             <ImageButton
-                android:id="@+id/findlunchICON"
+                android:id="@+id/findlunchBUTTON"
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:layout_width="wrap_content"
@@ -50,7 +47,6 @@
         </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/homepage1.2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -59,7 +55,7 @@
         android:weightSum="1">
 
         <ImageButton
-            android:id="@+id/mapICON"
+            android:id="@+id/mapBUTTON"
             android:paddingRight="30dp"
             android:paddingLeft="30dp"
             android:layout_width="wrap_content"
@@ -69,7 +65,7 @@
             android:onClick="methodToGoToMapPage"/>
 
         <ImageButton
-            android:id="@+id/inboxICON"
+            android:id="@+id/inboxBUTTON"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:layout_width="wrap_content"
@@ -81,7 +77,6 @@
         </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/homepage1.3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -90,7 +85,7 @@
         android:weightSum="1">
 
         <ImageButton
-            android:id="@+id/socialmediaICON"
+            android:id="@+id/socialmediaBUTTON"
             android:paddingRight="30dp"
             android:paddingLeft="30dp"
             android:layout_width="wrap_content"
@@ -100,7 +95,7 @@
             android:onClick="methodToGoToSocialMediaPage"/>
 
         <ImageButton
-            android:id="@+id/settingsICON"
+            android:id="@+id/settingsBUTTON"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:layout_width="wrap_content"

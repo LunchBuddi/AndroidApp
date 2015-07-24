@@ -1,12 +1,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/registerpage3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="1"
     >
     <ImageView
-        android:id="@+id/registeraccountbanner"
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:layout_gravity="fill_horizontal"
@@ -15,7 +13,6 @@
         />
 
     <LinearLayout
-        android:id="@+id/registerpage3.1"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
@@ -65,7 +62,7 @@
 
         <Spinner
             android:layout_marginBottom="10dp"
-            android:id="@+id/spinnerForCurrentClubsTheirIn"
+            android:id="@+id/spinnerForCurrentClubsTheyreIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.10"
