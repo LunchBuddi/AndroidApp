@@ -9,7 +9,7 @@
         android:layout_height="72dp"
         android:layout_gravity="fill_horizontal"
         android:focusableInTouchMode="false"
-        android:src="@mipmap/registeraccountbanner"
+        android:src="@drawable/registeraccountbanner"
         />
 
     <LinearLayout

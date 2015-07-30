@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:id="@+id/inboxlogo"
-        android:src="@mipmap/inboxbanner"
+        android:src="@drawable/inboxbanner"
         android:layout_gravity="top"
         android:focusableInTouchMode="false"/>
 

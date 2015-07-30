@@ -8,7 +8,7 @@
         android:contentDescription="@string/SettingsBanner"
         android:layout_width="match_parent"
         android:layout_height="72dp"
-        android:src="@mipmap/settingsbanner"
+        android:src="@drawable/settingsbanner"
         android:layout_gravity="top"
         android:focusableInTouchMode="false"
         />
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/Edit_Profile"
-            android:src="@mipmap/editprofilebutton"
+            android:src="@drawable/editprofilebutton"
             android:onClick="methodToGoToRegisterPage1"/>
 
         <ImageButton
@@ -38,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/deleteaccountButton"
-            android:src="@mipmap/deleteaccountbutton"
+            android:src="@drawable/deleteaccountbutton"
             android:onClick="methodToGoToDeleteAccountPage"/>
     </LinearLayout>
 
@@ -57,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/Report_Abuse"
-            android:src="@mipmap/reportabusebutton"
+            android:src="@drawable/reportabusebutton"
             android:onClick="methodToGoToReportAbusePage"/>
 
         <ImageButton
@@ -67,7 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/aboutusButton"
-            android:src="@mipmap/aboutusbutton"
+            android:src="@drawable/aboutusbutton"
             android:onClick="methodToGoToAboutUsPage"/>
     </LinearLayout>
 
@@ -86,7 +86,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/feedback"
-            android:src="@mipmap/feedbackbutton"
+            android:src="@drawable/feedbackbutton"
             android:onClick="methodToGoToFeedbackPage"/>
 
         <ImageButton
@@ -96,7 +96,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/helpButton"
-            android:src="@mipmap/helpbutton"
+            android:src="@drawable/helpbutton"
             android:onClick="methodToGoToHelpPage"/>
     </LinearLayout>
 
@@ -115,7 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/sponsors"
-            android:src="@mipmap/sponsorsbutton"
+            android:src="@drawable/sponsorsbutton"
             android:onClick="methodToGoToSponsorsPage"/>
     </LinearLayout>
 

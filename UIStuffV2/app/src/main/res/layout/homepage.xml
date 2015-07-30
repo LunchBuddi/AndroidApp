@@ -10,7 +10,7 @@
         android:contentDescription="@string/Home_Banner"
         android:layout_width="match_parent"
         android:layout_height="72dp"
-        android:src="@mipmap/homebanner"
+        android:src="@drawable/homebanner"
         android:layout_gravity="top"
         android:focusableInTouchMode="false"
         />
@@ -31,7 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/scheduleButton"
-                android:src="@mipmap/scheduleicon"
+                android:src="@drawable/scheduleicon"
                 android:onClick="methodToGoToSchedulePage"/>
 
             <ImageButton
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/findlunchButton"
-                android:src="@mipmap/findlunchbutton"
+                android:src="@drawable/findlunchbutton"
                 android:onClick="methodToGoToFindLunchPage"/>
 
         </LinearLayout>
@@ -61,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/mapButton"
-            android:src="@mipmap/mapbutton"
+            android:src="@drawable/mapbutton"
             android:onClick="methodToGoToMapPage"/>
 
         <ImageButton
@@ -71,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/inboxButton"
-            android:src="@mipmap/inboxbutton"
+            android:src="@drawable/inboxbutton"
             android:onClick="methodToGoToInboxPage"/>
 
         </LinearLayout>
@@ -91,7 +91,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/socialmediaButton"
-            android:src="@mipmap/socialmediabutton"
+            android:src="@drawable/socialmediabutton"
             android:onClick="methodToGoToSocialMediaPage"/>
 
         <ImageButton
@@ -101,7 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/settingsButton"
-            android:src="@mipmap/settingsbutton"
+            android:src="@drawable/settingsbutton"
             android:onClick="methodToGoToSettingsPage"/>
 
         </LinearLayout>

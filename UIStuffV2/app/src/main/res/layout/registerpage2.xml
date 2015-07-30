@@ -11,7 +11,7 @@
         android:layout_height="72dp"
         android:layout_gravity="fill_horizontal"
         android:focusableInTouchMode="false"
-        android:src="@mipmap/registeraccountbanner"/>
+        android:src="@drawable/registeraccountbanner"/>
 
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -31,7 +31,7 @@
             android:layout_height="70dp"
             android:layout_gravity="center_horizontal"
             android:focusableInTouchMode="false"
-            android:src="@mipmap/availbanner"/>
+            android:src="@drawable/availbanner"/>
 
 
         <LinearLayout

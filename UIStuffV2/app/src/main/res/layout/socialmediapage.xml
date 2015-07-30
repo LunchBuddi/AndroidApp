@@ -10,7 +10,7 @@
         android:contentDescription="@string/socialmediaButton"
         android:layout_width="match_parent"
         android:layout_height="72dp"
-        android:src="@mipmap/socialmediabanner"
+        android:src="@drawable/socialmediabanner"
         android:layout_gravity="top"
         android:focusableInTouchMode="false"
         />
@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/instagramButton"
-            android:src="@mipmap/instagramicon"
+            android:src="@drawable/instagramicon"
             android:onClick="methodToGoToInstagramWebsite"/>
 
         <ImageButton
@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/facebookButton"
-            android:src="@mipmap/facebookicon"
+            android:src="@drawable/facebookicon"
             android:onClick="methodToGoToFacebookWebsite"/>
 
     </LinearLayout>
@@ -63,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/youtubeButton"
-            android:src="@mipmap/youtubeicon"
+            android:src="@drawable/youtubeicon"
             android:onClick="methodToGoToYoutubeWebsite"/>
 
         <ImageButton
@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/twitterButton"
-            android:src="@mipmap/twittericon"
+            android:src="@drawable/twittericon"
             android:onClick="methodToGoToTwitterWebsite"/>
 
     </LinearLayout>
@@ -93,7 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/pinterestButton"
-            android:src="@mipmap/pinteresticon"
+            android:src="@drawable/pinteresticon"
             android:onClick="methodToGoToPinterestWebsite"/>
 
         <ImageButton
@@ -103,7 +103,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/tumblrButton"
-            android:src="@mipmap/tumblricon"
+            android:src="@drawable/tumblricon"
             android:onClick="methodToGoToTumblrPage"/>
 
     </LinearLayout>
