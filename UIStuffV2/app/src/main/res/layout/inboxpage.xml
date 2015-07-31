@@ -4,14 +4,12 @@
     android:layout_width="match_parent"
     android:orientation="horizontal"
     android:layout_gravity="center_vertical"
-    android:id="@+id/inboxPage"
     android:layout_height="wrap_content">
 
     <ImageView
         android:contentDescription="@string/inboxBanner"
         android:layout_width="match_parent"
         android:layout_height="72dp"
-        android:id="@+id/inboxlogo"
         android:src="@drawable/inboxbanner"
         android:layout_gravity="top"
         android:focusableInTouchMode="false"/>
@@ -26,7 +24,6 @@
             />
 
         <LinearLayout
-            android:id="@+id/inboxPage1.1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
