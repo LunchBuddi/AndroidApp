@@ -117,6 +117,16 @@
             android:contentDescription="@string/sponsors"
             android:src="@drawable/sponsorsbutton"
             android:onClick="methodToGoToSponsorsPage"/>
+
+        <ImageButton
+            android:id="@+id/couponsBUTTON"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/coupons"
+            android:src="@drawable/couponsbutton"
+            android:onClick="methodToGoToCouponsPage"/>
     </LinearLayout>
 
     <LinearLayout
@@ -137,5 +147,7 @@
             android:id="@+id/backtoHomeButton"
             android:layout_gravity="center_horizontal"
             android:onClick="methodToGoToHomepage" />
+
+
     </LinearLayout>
 </LinearLayout>
