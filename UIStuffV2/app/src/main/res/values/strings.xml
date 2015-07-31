@@ -98,6 +98,10 @@
     <string name="CurrentInboxMessages">Messages</string>
     <string name="inboxBanner">Inbox</string>
     <string name="newMessageButton">New Message</string>
+    <string name="title_activity_inbox">inbox</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
     <!-- END -->
 

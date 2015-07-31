@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
+    android:background="#ffffff"
     android:weightSum="1">
 
     <!-- Login progress -->
