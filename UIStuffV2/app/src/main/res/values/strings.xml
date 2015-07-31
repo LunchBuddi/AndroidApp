@@ -20,6 +20,8 @@
     <!-- END -->
 
     <!-- registerpage1.xml STRINGS -->
+    <string-array name="spinnerForMajors"><item>Major</item></string-array>
+    <string-array name="spinnerForGradYear"><item>Graduation Year</item></string-array>
     <string name="Register_Account_Banner">Register Account</string>
     <string name="Full_Name">Full Name</string>
     <string name="Chosen_Major">Chosen Major</string>
@@ -29,6 +31,13 @@
     <!-- END -->
 
     <!-- registerpage2.xml STRINGS -->
+    <string-array name="spinnerForMondayAvail"><item>Monday</item></string-array>
+    <string-array name="spinnerForTuesdayAvail"><item>Tuesday</item></string-array>
+    <string-array name="spinnerForWednesdayAvail"><item>Wednesday</item></string-array>
+    <string-array name="spinnerForThursdayAvail"><item>Thursday</item></string-array>
+    <string-array name="spinnerForFridayAvail"><item>Friday</item></string-array>
+    <string-array name="spinnerForSaturdayAvail"><item>Saturday</item></string-array>
+    <string-array name="spinnerForSundayAvail"><item>Sunday</item></string-array>
     <string name="Availability_Banner">Availability</string>
     <string name="Monday_Availability">Monday Availability</string>
     <string name="Tuesday_Availability">Tuesday Availability</string>
@@ -40,6 +49,8 @@
     <!-- END -->
 
     <!-- registerpage3.xml STRINGS -->
+    <string-array name="spinnerForFavPlacesToEat"><item>Favorite Places to Eat</item></string-array>
+    <string-array name="spinnerForCurrentClubsTheyreIn"><item>Current Clubs You're In</item></string-array>
     <string name="Favorite_Places_to_Eat">Favorite Places to Eat</string>
     <string name="I_Bring_My_Lunch">I Bring My Lunch</string>
     <string name="I_Dont_Bring_My_Lunch">I Don't Bring My Lunch</string>
