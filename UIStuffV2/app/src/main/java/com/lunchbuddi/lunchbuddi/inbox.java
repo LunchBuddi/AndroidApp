@@ -1,37 +1,30 @@
 package com.lunchbuddi.lunchbuddi;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.widget.ListView;
+import java.util.ArrayList;
+import java.util.List;
 
-public class inbox extends ActionBarActivity {
+// THIS CLASS IS ASSOCIATED WITH THE INBOX
+
+public class MyActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inbox);
-    }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_inbox, menu);
-        return true;
-    }
+        ListView listView = (ListView) findViewById(R.id.list);
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+        // Create an empty array list of strings
+        List<String> items = new ArrayList<String>();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+        // Set the adapter
+        MyCustomAdapter adapter = new MyCustomAdapter(items);  //ERROR?
+        listView.setAdapter(adapter);
 
-        return super.onOptionsItemSelected(item);
+        // Set the emptyView to the ListView
+        listView.setEmptyView(findViewById(R.id.empty));
     }
 }
