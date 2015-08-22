@@ -8,7 +8,7 @@ import java.util.List;
 
 // THIS CLASS IS ASSOCIATED WITH THE INBOX
 
-public class MyActivity extends Activity {
+public class activity_inbox extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class MyActivity extends Activity {
         List<String> items = new ArrayList<String>();
 
         // Set the adapter
-        MyCustomAdapter adapter = new MyCustomAdapter(items);  //ERROR?
+        InboxAdapter adapter = new InboxAdapter(items);  //ERROR?
         listView.setAdapter(adapter);
 
         // Set the emptyView to the ListView

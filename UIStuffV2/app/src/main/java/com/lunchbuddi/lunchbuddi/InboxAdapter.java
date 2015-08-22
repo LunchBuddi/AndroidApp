@@ -11,11 +11,11 @@ import java.util.ArrayList;
 
 // THIS CLASS IS ASSOCIATED WITH THE INBOX
 
-public class MyCustomAdapter extends BaseAdapter {
+public class InboxAdapter extends BaseAdapter {
     private ArrayList<String> mListItems;
     private LayoutInflater mLayoutInflater;
 
-    public MyCustomAdapter(Context context, ArrayList<String> arrayList){
+    public InboxAdapter(Context context, ArrayList<String> arrayList){
 
         mListItems = arrayList;
 
@@ -53,8 +53,8 @@ public class MyCustomAdapter extends BaseAdapter {
         if (view == null) {
             holder = new ViewHolder();
 
-            view = mLayoutInflater.inflate(R.layout.list_item, null);
-            holder.itemName = (TextView) view.findViewById(R.id.list_item_text_view);
+            view = mLayoutInflater.inflate(R.layout.list_item, null);  //error???
+            holder.itemName = (TextView) view.findViewById(R.id.list_item_text_view);  //error???
 
             // the setTag is used to store the data within this view
             view.setTag(holder);

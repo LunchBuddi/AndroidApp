@@ -50,12 +50,12 @@
 
     <!-- registerpage3.xml STRINGS -->
     <string-array name="spinnerForFavPlacesToEat"><item>Favorite Places to Eat</item></string-array>
-    <string-array name="spinnerForCurrentClubsTheyreIn"><item>Current Clubs You're In</item></string-array>
+    <string-array name="spinnerForCurrentClubsTheyreIn"><item>Current Clubs Youre In</item></string-array>
     <string name="Favorite_Places_to_Eat">Favorite Places to Eat</string>
     <string name="I_Bring_My_Lunch">I Bring My Lunch</string>
-    <string name="I_Dont_Bring_My_Lunch">I Don't Bring My Lunch</string>
+    <string name="I_Dont_Bring_My_Lunch">I Dont Bring My Lunch</string>
     <string name="I_Do_Both">I Do Both</string>
-    <string name="Clubs_Youre_In">Clubs You're In</string>
+    <string name="Clubs_Youre_In">Clubs Youre In</string>
     <string name="Finish">Finish</string>
     <!-- END -->
 

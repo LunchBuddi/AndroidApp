@@ -19,7 +19,7 @@
             android:layout_height="250dp"
             android:contentDescription="@string/MAINLOGO"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/TransparentLogo"/>
+            android:src="@drawable/transparentlogo"/>
     <!-- We're not quite sure who owns this ^ image. Check with Adrienne -->
 
     <LinearLayout
