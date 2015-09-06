@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -7,6 +7,10 @@
     android:weightSum="1">
 
     <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/registeraccountbanner"
         android:contentDescription="@string/Register_Account_Banner"
         android:layout_width="match_parent"
         android:layout_height="72dp"
@@ -15,112 +19,128 @@
         android:src="@drawable/registeraccountbanner"/>
 
     <ScrollView
+        android:layout_below="@+id/registeraccountbanner"
+        android:id="@+id/scrollview1"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
 
 
         <LinearLayout
+            android:id="@+id/linearlayoutt"
+            android:layout_below="@+id/scrollview1"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:weightSum="1">
 
-        <ImageView
-            android:contentDescription="@string/Availability_Banner"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_gravity="center_horizontal"
-            android:focusableInTouchMode="false"
-            android:src="@drawable/availbanner"/>
-
-
-        <LinearLayout
+            <ImageView
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@string/Availability_Banner"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:paddingTop="10dp"
-                android:weightSum="1">
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:focusableInTouchMode="false"
+                android:src="@drawable/availbanner"/>
 
-        <Spinner
-            android:layout_marginBottom="10dp"
-            android:id="@+id/spinnerForMonday"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:hint="@string/Monday_Availability"
-        />
 
-        <Spinner
-            android:layout_marginBottom="10dp"
-            android:id="@+id/spinnerForTuesday"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:hint="@string/Tuesday_Availability"
-        />
+                <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:weightSum="1">
 
-        <Spinner
-            android:layout_marginBottom="10dp"
-            android:id="@+id/spinnerForWednesday"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:hint="@string/Wednesday_Availability"
-        />
+                    <Spinner
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/spinnerForMonday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.10"
+                        android:hint="@string/Monday_Availability"
+                    />
 
-        <Spinner
-            android:layout_marginBottom="10dp"
-            android:id="@+id/spinnerForThursday"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:hint="@string/Thursday_Availability"
-        />
+                    <Spinner
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/spinnerForTuesday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.10"
+                        android:hint="@string/Tuesday_Availability"
+                    />
 
-        <Spinner
-            android:layout_marginBottom="10dp"
-            android:id="@+id/spinnerForFriday"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:hint="@string/Friday_Availability"
-        />
+                    <Spinner
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/spinnerForWednesday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.10"
+                        android:hint="@string/Wednesday_Availability"
+                    />
 
-        <Spinner
-            android:layout_marginBottom="10dp"
-            android:id="@+id/spinnerForSaturday"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:hint="@string/Saturday_Availability"
-        />
+                    <Spinner
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/spinnerForThursday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.10"
+                        android:hint="@string/Thursday_Availability"
+                    />
 
-        <Spinner
-            android:layout_marginBottom="10dp"
-            android:id="@+id/spinnerForSunday"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:hint="@string/Sunday_Availability"
-        />
+                    <Spinner
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/spinnerForFriday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.10"
+                        android:hint="@string/Friday_Availability"
+                    />
 
-        <Button
-            android:layout_marginBottom="10dp"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Next_Page"
-            android:id="@+id/buttonToRegisterPage3"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0.15"
-            android:onClick="MethodToGoToRegisterPage3"
-            />
+                    <Spinner
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/spinnerForSaturday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.10"
+                        android:hint="@string/Saturday_Availability"
+                    />
+
+                    <Spinner
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/spinnerForSunday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.10"
+                        android:hint="@string/Sunday_Availability"
+                    />
+
+                    <Button
+                        android:layout_marginBottom="10dp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Next_Page"
+                        android:id="@+id/buttonToRegisterPage3"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="0.15"
+                        android:onClick="MethodToGoToRegisterPage3"
+                        />
 
         </LinearLayout>
         </LinearLayout>
     </ScrollView>
-</LinearLayout>
+</RelativeLayout>
