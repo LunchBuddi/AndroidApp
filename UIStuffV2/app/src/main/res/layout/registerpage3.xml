@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -6,6 +6,10 @@
     android:weightSum="1">
 
     <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/registeraccountbanner"
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:layout_gravity="fill_horizontal"
@@ -14,6 +18,10 @@
         />
 
     <LinearLayout
+        android:layout_below="@+id/registeraccountbanner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
@@ -84,4 +92,4 @@
 
 
     </LinearLayout>
-</LinearLayout>
+</RelativeLayout>
