@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
@@ -12,9 +12,18 @@
         android:src="@drawable/settingsbanner"
         android:layout_gravity="top"
         android:focusableInTouchMode="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/bannersettingspage"
         />
 
     <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_below="@+id/bannersettingspage"
+        android:gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="5dp"
@@ -26,7 +35,7 @@
             android:id="@+id/editprofileBUTTON"
             android:paddingRight="30dp"
             android:paddingLeft="30dp"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/Edit_Profile"
             android:src="@drawable/editprofilebutton"
@@ -36,7 +45,7 @@
             android:id="@+id/deleteaccountBUTTON"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/deleteaccountButton"
             android:src="@drawable/deleteaccountbutton"
@@ -44,6 +53,11 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_below="@id/ll1"
+        android:gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="5dp"
@@ -73,6 +87,11 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_below="@id/ll2"
+        android:gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="5dp"
@@ -102,6 +121,11 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_below="@id/ll3"
+        android:gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="5dp"
@@ -131,10 +155,15 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:id="@+id/ll5"
+        android:layout_below="@id/ll4"
         android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:weightSum="1">
@@ -146,9 +175,9 @@
             android:text="@string/backtoHomeButton"
             android:layout_marginBottom="10dp"
             android:id="@+id/backtoHomeButton"
-            android:layout_gravity="center_horizontal"
+            android:gravity="center"
             android:onClick="methodToGoToHomepage" />
 
 
     </LinearLayout>
-</LinearLayout>
+</RelativeLayout>
