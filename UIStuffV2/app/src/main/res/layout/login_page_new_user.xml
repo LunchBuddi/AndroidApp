@@ -102,6 +102,7 @@
         android:weightSum="1">
 
         <Button
+            android:gravity="center"
             android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="60dp"

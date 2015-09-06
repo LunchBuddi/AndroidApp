@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,6 +13,10 @@
     <!-- ID values go in R.java -->
 
         <ImageView
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/loginlogo"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:layout_width="350dp"
@@ -23,6 +27,10 @@
     <!-- We're not quite sure who owns this ^ image. Check with Adrienne -->
 
     <LinearLayout
+        android:layout_below="@+id/loginlogo"
+        android:id="@+id/loginlinearlayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -41,6 +49,10 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_below="@+id/loginlinearlayout1"
+        android:id="@+id/loginlinearlayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -59,6 +71,10 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_below="@+id/loginlinearlayout2"
+        android:id="@+id/loginlinearlayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -68,6 +84,7 @@
         android:weightSum="1">
 
         <Button
+            android:gravity="center"
             android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -78,6 +95,7 @@
             android:onClick="methodToGoToHomepage" />
 
         <Button
+            android:gravity="center"
             android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -87,4 +105,4 @@
             android:onClick="methodToGoToRegisterPage1" />
 
     </LinearLayout>
-</LinearLayout>
+</RelativeLayout>
