@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,6 +9,10 @@
     android:weightSum="1">
 
     <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/loginlogo"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:layout_width="350dp"
@@ -19,6 +23,10 @@
     <!-- We're not quite sure who owns this ^ image. Check with Adrienne -->
 
     <LinearLayout
+        android:layout_below="@+id/loginlogo"
+        android:id="@+id/loginll1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -37,6 +45,10 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_below="@+id/loginll1"
+        android:id="@+id/loginll2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -55,6 +67,10 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_below="@+id/loginll2"
+        android:id="@+id/loginll3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -73,6 +89,10 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_below="@+id/loginll3"
+        android:id="@+id/loginll4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
@@ -92,4 +112,4 @@
             android:onClick="methodToGoToHomepage" />
 
     </LinearLayout>
-</LinearLayout>
+</RelativeLayout>
