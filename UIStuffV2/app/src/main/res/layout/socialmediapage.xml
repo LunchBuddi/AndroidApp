@@ -149,6 +149,7 @@
             android:id="@+id/backtoHomeButton"
             android:gravity="center"
             android:onClick="methodToGoToHomepage" />
+
         </LinearLayout>
 
 </RelativeLayout>
