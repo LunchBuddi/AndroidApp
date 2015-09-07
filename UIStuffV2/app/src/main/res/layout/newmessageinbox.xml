@@ -51,6 +51,7 @@
         android:layout_above="@+id/button_container">
 
         <EditText
+            android:gravity="top"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textMultiLine"
@@ -89,6 +90,8 @@
             android:onClick="methodToSendNewMessage"
             android:id="@+id/sendMessageButton"
             android:text="@string/sendMessageButton"/>
+
+        <!-- After sending a message, automatically redirect them home -->
 
     </LinearLayout>
 

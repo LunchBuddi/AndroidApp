@@ -105,8 +105,8 @@
     <!-- END -->
 
     <!-- newmessageinbox.xml STRINGS -->
-    <string name="sendMessageButton">Send Message</string>
-    <string name="backtoInboxPage">Back</string>
+    <string name="sendMessageButton">Send</string>
+    <string name="backtoInboxPage">Cancel</string>
 
 
 </resources>
