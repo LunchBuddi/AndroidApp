@@ -99,11 +99,14 @@
     <string name="inboxBanner">Inbox</string>
     <string name="newMessageButton">New Message</string>
     <string name="title_activity_inbox">inbox</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="createMessagePage">New Message</string>
     <!-- END -->
+
+    <!-- newmessageinbox.xml STRINGS -->
+    <string name="sendMessageButton">Send Message</string>
+    <string name="backtoInboxPage">Back</string>
 
 
 </resources>

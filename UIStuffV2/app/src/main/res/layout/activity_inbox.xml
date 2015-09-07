@@ -8,7 +8,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:id="@+id/textView"
+        android:id="@+id/inboxbanner"
         android:contentDescription="@string/Home_Banner"
         android:layout_width="match_parent"
         android:layout_height="72dp"
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/listView"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/inboxbanner"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/button_container"/>
@@ -33,6 +33,7 @@
         android:id="@+id/button_container"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentStart="true">
 
         <Button
@@ -54,7 +55,6 @@
             android:onClick="methodToGoToCreateMessagePage"
             android:id="@+id/createMessagePage"
             android:text="@string/createMessagePage"/>
-        <!-- CREATE NEW CREATEMESSAGEPAGE.XML -->
 
     </LinearLayout>
 </RelativeLayout>
