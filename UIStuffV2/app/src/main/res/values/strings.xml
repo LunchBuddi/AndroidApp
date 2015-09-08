@@ -107,6 +107,10 @@
     <!-- newmessageinbox.xml STRINGS -->
     <string name="sendMessageButton">Send</string>
     <string name="backtoInboxPage">Cancel</string>
+    <!-- END -->
 
+    <!-- schedulepage.xml STRINGS -->
+    <string name="schedule_banner">Schedule Banner</string>
+    <!-- END -->
 
 </resources>
