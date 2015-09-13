@@ -113,4 +113,8 @@
     <string name="schedule_banner">Schedule Banner</string>
     <!-- END -->
 
+    <!-- findlunchpage.xml STRINGS -->
+    <string name="findlunch_banner">Find Lunch Banner</string>
+    <!-- END -->
+
 </resources>
