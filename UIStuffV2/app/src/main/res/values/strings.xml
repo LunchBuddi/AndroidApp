@@ -115,6 +115,7 @@
 
     <!-- findlunchpage.xml STRINGS -->
     <string name="findlunch_banner">Find Lunch Banner</string>
+    <string name="title_activity_main">MainActivity</string>
     <!-- END -->
 
 </resources>

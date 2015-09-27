@@ -18,7 +18,7 @@
             android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
         <activity
-            android:name=".inbox"
+            android:name=".activity_inbox"
             android:label="@string/title_activity_inbox" >
         </activity>
     </application>
