@@ -4,6 +4,8 @@
     android:background="#ffffff"
     >
 
+    <!-- Author: Emily Black -->
+    <!-- Edited: 9/27/15 -->
     <!-- The spinner is for people who the user can message -->
     <!-- This edit text is for the message (maybe add limit?) -->
 

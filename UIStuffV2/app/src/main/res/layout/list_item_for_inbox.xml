@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!-- THIS XML IS ASSOCIATED WITH THE INBOX -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
@@ -9,6 +7,9 @@
     android:id="@+id/list_item"
     android:gravity="center_vertical">
 
+    <!-- Author: Emily Black -->
+    <!-- Edited: 9/27/15 -->
+    <!-- This is a fragment for the inboxpage listview -->
 
     <TextView android:layout_width="wrap_content"
         android:layout_height="wrap_content"

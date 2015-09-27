@@ -7,6 +7,9 @@
     android:layout_gravity="fill_horizontal"
     android:weightSum="1">
 
+    <!-- Author: Emily Black -->
+    <!-- Edited: 9/27/15 -->
+
     <ImageView
         android:id="@+id/registeraccountbanner"
         android:layout_alignParentTop="true"

@@ -5,6 +5,9 @@
     android:background="#ffffff"
     android:weightSum="1">
 
+    <!-- Author: Emily Black -->
+    <!-- Edited: 9/27/15 -->
+
     <ImageView
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -76,6 +79,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.10"
             android:hint="@string/Clubs_Youre_In"
+            />
+
+        <!-- Maybe this could be a list of interests such as sports/etc? -->
+        <Spinner
+            android:layout_marginBottom="10dp"
+            android:id="@+id/spinnerForInterests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:hint="@string/InterestsList"
             />
 
 

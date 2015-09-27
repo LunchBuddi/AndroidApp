@@ -3,6 +3,9 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="#ffffff">
 
+    <!-- Author: Emily Black -->
+    <!-- Edited: 9/27/15 -->
+
     <ImageView
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"

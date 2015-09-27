@@ -8,6 +8,9 @@
     android:background="#ffffff"
     android:weightSum="1">
 
+    <!-- Author: Emily Black -->
+    <!-- Edited: 9/27/15 -->
+
     <ImageView
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"

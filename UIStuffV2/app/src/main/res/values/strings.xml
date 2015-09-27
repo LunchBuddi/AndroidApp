@@ -49,6 +49,7 @@
     <!-- END -->
 
     <!-- registerpage3.xml STRINGS -->
+    <string name="InterestsList">Interests</string>
     <string-array name="spinnerForFavPlacesToEat"><item>Favorite Places to Eat</item></string-array>
     <string-array name="spinnerForCurrentClubsTheyreIn"><item>Current Clubs Youre In</item></string-array>
     <string name="Favorite_Places_to_Eat">Favorite Places to Eat</string>
@@ -116,6 +117,19 @@
     <!-- findlunchpage.xml STRINGS -->
     <string name="findlunch_banner">Find Lunch Banner</string>
     <string name="title_activity_main">MainActivity</string>
+    <!-- END -->
+
+    <!-- editprofilepage.xml STRINGS -->
+    <string name="backtoSettingspageButton">Back to Settings Page</string>
+    <string name="EditProfilePageBanner">Edit Profile</string>
+    <string name="Edit_Name">Edit Name</string>
+    <string name="editemailButton">Edit Email</string>
+    <string name="editinterests">Edit Interests</string>
+    <string name="editmajorButton">Edit Major</string>
+    <string name="editgradyearbutton">Edit Graduation Year</string>
+    <string name="editavailabilityButton">Edit Availability</string>
+    <string name="editfavplacestoeatbutton">Edit Favorite Places to Eat</string>
+    <string name="editcurrentclubsbutton">Edit Current Clubs You're In</string>
     <!-- END -->
 
 </resources>
