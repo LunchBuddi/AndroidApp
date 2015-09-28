@@ -132,4 +132,16 @@
     <string name="editcurrentclubsbutton">Edit Current Clubs You're In</string>
     <!-- END -->
 
+    <!-- aboutuspage.xml STRINGS -->
+    <string name="AboutUsBanner">About Us</string>
+    <!-- END -->
+
+    <!-- sponsorspage.xml STRINGS -->
+    <string name="SponsorsBanner">Sponsors</string>
+    <!-- END -->
+
+    <!-- couponspage.xml STRINGS -->
+    <string name="CouponsBanner">Coupons</string>
+    <!-- END -->
+
 </resources>

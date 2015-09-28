@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <!-- Author: Emily Black -->
+    <!-- Edited: 9/27/15 -->
+
+
+    <!-- NEED TO FINISH THIS PAGE -->
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/couponsBanner"
+        android:contentDescription="@string/CouponsBanner"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:src="@drawable/couponspagebanner"
+        android:layout_gravity="top"
+        android:focusableInTouchMode="false"
+        />
+
+</RelativeLayout>

@@ -177,7 +177,7 @@
             android:layout_height="60dp"
             android:text="@string/backtoSettingspageButton"
             android:layout_marginBottom="10dp"
-            android:id="@+id/backtoSeetingspageButton"
+            android:id="@+id/backtoSettingspageButton"
             android:gravity="center"
             android:onClick="methodToGoToSettingsPage" />
 

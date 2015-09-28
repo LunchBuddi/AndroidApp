@@ -6,6 +6,7 @@
     android:orientation="vertical">
     <!-- Author: Emily Black -->
     <!-- Edited: 9/27/15 -->
+    <!-- Comments above imagebuttons are the functions they should have after being clicked-->
 
     <ImageView
         android:contentDescription="@string/SettingsBanner"
@@ -43,6 +44,7 @@
             android:src="@drawable/editprofilebutton"
             android:onClick="methodToGoToEditProfilePage"/>
 
+        <!-- THE DELETE ACCOUNT BUTTON SHOULD PROMPT AN "ARE YOU SURE BOX" BEFORE DELETEING THEIR ACCOUNT! -->
         <ImageButton
             android:id="@+id/deleteaccountBUTTON"
             android:paddingLeft="30dp"
@@ -67,6 +69,7 @@
         android:layout_gravity="center_horizontal"
         android:weightSum="1">
 
+        <!-- POPUP BOX SHOULD OPEN UP AND DISPLAY OUR SUPPORT EMAIL ADDRESS -->
         <ImageButton
             android:id="@+id/reportabuseBUTTON"
             android:paddingRight="30dp"
@@ -101,6 +104,7 @@
         android:layout_gravity="center_horizontal"
         android:weightSum="1">
 
+        <!-- THE FEEDBACK BUTTON SHOULD OPEN THEM UP TO THE ANDROID STORE AND OPEN UP THE ADD A REVIEW PAGE -->
         <ImageButton
             android:id="@+id/feedbackBUTTON"
             android:paddingRight="30dp"
@@ -109,8 +113,9 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/feedback"
             android:src="@drawable/feedbackbutton"
-            android:onClick="methodToGoToFeedbackPage"/>
+            android:onClick="methodToOpenUpReviewPageInAndroidStore"/>
 
+        <!-- POPUP BOX SHOULD OPEN UP AND DISPLAY OUR SUPPORT EMAIL ADDRESS -->
         <ImageButton
             android:id="@+id/helpBUTTON"
             android:paddingLeft="30dp"
