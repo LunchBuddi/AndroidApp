@@ -1,6 +1,7 @@
 <resources>
     <!-- NOTE: SOME STRINGS ARE USED IN MULTIPLE XML PAGES -->
     <string name="app_name">Lunch Buddi</string>
+    <string name="under_construction">PAGE UNDER CONSTRUCTION, SORRY</string>
 
     <!-- activity_login.xml STRINGS -->
     <string name="Login">Login</string>
@@ -129,7 +130,7 @@
     <string name="editgradyearbutton">Edit Graduation Year</string>
     <string name="editavailabilityButton">Edit Availability</string>
     <string name="editfavplacestoeatbutton">Edit Favorite Places to Eat</string>
-    <string name="editcurrentclubsbutton">Edit Current Clubs You're In</string>
+    <string name="editcurrentclubsbutton">Edit Current Clubs You\'re In</string>
     <!-- END -->
 
     <!-- aboutuspage.xml STRINGS -->

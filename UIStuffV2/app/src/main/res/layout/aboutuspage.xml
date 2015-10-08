@@ -37,8 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="PAGE UNDER CONSTRUCTION,
-                  SORRY </3"
+            android:text="@string/under_construction"
             android:id="@+id/textView"
             android:layout_below="@+id/LINEARLAYOUT1"
             android:layout_centerHorizontal="true"
