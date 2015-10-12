@@ -144,6 +144,7 @@
     <!-- couponspage.xml STRINGS -->
     <string name="CouponsBanner">Coupons</string>
     <string name="title_activity_login">login</string>
+    <string name="title_activity_home_page">HomePage</string>
     <!-- END -->
 
 </resources>
