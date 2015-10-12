@@ -7,7 +7,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class login extends ActionBarActivity {
+/*
+    Author: David McKnight
+    Date: 11 October 2015
+ */
+
+public class Login extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +42,7 @@ public class login extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    //Method for launching the homepage when the user logs in via the "login" button. Will take in user information.
     public void loginToHomePage(View view)
     {
         Intent intent=new Intent(this, HomePage.class);

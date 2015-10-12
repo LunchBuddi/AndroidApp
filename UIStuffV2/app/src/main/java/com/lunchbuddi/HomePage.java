@@ -7,6 +7,11 @@ import android.view.MenuItem;
 
 import com.lunchbuddi.R;
 
+/*
+    Author: David McKnight
+    Date: 11 October 2015
+ */
+
 public class HomePage extends ActionBarActivity {
 
     @Override
