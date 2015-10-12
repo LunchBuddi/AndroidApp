@@ -93,8 +93,8 @@
             android:text="@string/Login"
             android:layout_marginBottom="10dp"
             android:id="@+id/loginButton"
-            android:layout_gravity="center_horizontal"
-            android:onClick="methodToGoToHomepage" />
+            android:layout_gravity="center_horizontal"/>
+            <!--android:onClick="methodToGoToHomepage" />-->
 
         <Button
             android:gravity="center"
@@ -103,8 +103,8 @@
             android:layout_height="60dp"
             android:text="@string/Register"
             android:id="@+id/registerButton"
-            android:layout_gravity="center_horizontal"
-            android:onClick="methodToGoToRegisterPage1" />
+            android:layout_gravity="center_horizontal"/>
+            <!--android:onClick="methodToGoToRegisterPage1" />-->
 
     </LinearLayout>
 </RelativeLayout>
