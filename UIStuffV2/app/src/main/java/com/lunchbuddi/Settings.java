@@ -1,31 +1,24 @@
 package com.lunchbuddi;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.lunchbuddi.R;
 
-/*
-    Author: David McKnight
-    Date: 11 October 2015
- */
-
-public class HomePage extends ActionBarActivity {
+public class Settings extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.homepage);
+        setContentView(R.layout.settingspage);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_home_page, menu);
+        getMenuInflater().inflate(R.menu.menu_settings, menu);
         return true;
     }
 
@@ -42,12 +35,5 @@ public class HomePage extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    //Opens up the Settings page from the HomePage
-    public void homePageToSettingsPage(View view)
-    {
-        Intent intent=new Intent(this, Settings.class);
-        startActivity(intent);
     }
 }

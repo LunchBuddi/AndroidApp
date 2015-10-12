@@ -145,6 +145,7 @@
     <string name="CouponsBanner">Coupons</string>
     <string name="title_activity_login">login</string>
     <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_settings">Settings</string>
     <!-- END -->
 
 </resources>

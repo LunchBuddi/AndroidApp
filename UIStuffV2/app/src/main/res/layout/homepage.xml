@@ -126,7 +126,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/settingsButton"
             android:src="@drawable/settingsbutton"
-            android:onClick="methodToGoToSettingsPage"/>
+            android:onClick="homePageToSettingsPage"/>
 
         </LinearLayout>
 
