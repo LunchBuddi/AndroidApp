@@ -7,8 +7,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.lunchbuddi.R;
-
 /*
     Author: David McKnight
     Date: 11 October 2015
@@ -19,7 +17,7 @@ public class HomePage extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.homepage);
+        setContentView(R.layout.activity_homepage);
     }
 
     @Override
@@ -43,6 +41,8 @@ public class HomePage extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    //Methods to open other pages
 
     //Opens up the Settings page from the HomePage
     public void homePageToSettingsPage(View view)
