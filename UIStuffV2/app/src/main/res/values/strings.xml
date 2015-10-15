@@ -9,7 +9,7 @@
     <string name="OU_Email">OU Email</string>
     <string name="Password">Password</string>
     <string name="Register">Register</string>
-    <!-- Strings related to LoginFix (not used yet)-->
+    <!-- Strings related to Login (not used yet)-->
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>

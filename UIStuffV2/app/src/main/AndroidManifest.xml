@@ -4,7 +4,7 @@
 
     <uses-sdk android:minSdkVersion="15" />
 
-    <!-- To auto-complete the email text field in the LoginFix form with the user's emails -->
+    <!-- To auto-complete the email text field in the Login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -19,7 +19,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".LoginFix"
+            android:name=".Login"
             android:label="@string/title_activity_login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
