@@ -12,7 +12,10 @@ import android.view.View;
     Date: 11 October 2015
  */
 
-public class Login extends ActionBarActivity {
+public class LoginFix extends ActionBarActivity {
+
+    //Test comment
+    //Why does this not detect changes
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
