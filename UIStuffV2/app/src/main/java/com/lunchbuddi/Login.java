@@ -14,6 +14,9 @@ import android.view.View;
 
 public class Login extends ActionBarActivity {
 
+    //Test comment
+    //Why does this not detect changes
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
