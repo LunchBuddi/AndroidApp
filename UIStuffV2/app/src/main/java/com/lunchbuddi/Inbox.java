@@ -1,32 +1,24 @@
 package com.lunchbuddi;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-/*
-    Author: David McKnight
-    Date: 11 October 2015
- */
+import com.lunchbuddi.R;
 
-public class LoginFix extends ActionBarActivity {
-
-    //Test comment
-    //Why does this not detect changes
+public class Inbox extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_inbox);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_login, menu);
+        getMenuInflater().inflate(R.menu.menu_inbox, menu);
         return true;
     }
 
@@ -43,14 +35,5 @@ public class LoginFix extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    //Methods to open other pages
-
-    //Method for launching the activity_homepage when the user logs in via the "login" button. Will take in user information.
-    public void loginToHomePage(View view)
-    {
-        Intent intent=new Intent(this, HomePage.class);
-        startActivity(intent);
     }
 }

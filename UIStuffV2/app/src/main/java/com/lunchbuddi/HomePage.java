@@ -50,4 +50,11 @@ public class HomePage extends ActionBarActivity {
         Intent intent=new Intent(this, Settings.class);
         startActivity(intent);
     }
+
+    //Opens up the Inbox page from the HomePage
+    public void homePageToInboxPage(View view)
+    {
+        Intent intent=new Intent(this, Inbox.class);
+        startActivity(intent);
+    }
 }
