@@ -61,7 +61,7 @@ public class HomePage extends ActionBarActivity {
     //Opens up the Inbox page from the HomePage
     public void homePageToMapsActivity(View view)
     {
-        Intent intent=new Intent(this, Maps.class);
+        Intent intent=new Intent(this, MapsActivity.class);
         startActivity(intent);
     }
 }
