@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/findlunchButton"
                 android:src="@drawable/findlunchbutton"
-                android:onClick="methodToGoToFindLunchPage"/>
+                android:onClick="homePageToFindLunch"/>
 
         </LinearLayout>
 
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/mapButton"
             android:src="@drawable/mapbutton"
-            android:onClick="methodToGoToMapPage"/>
+            android:onClick="homePageToMapsActivity"/>
 
         <ImageButton
             android:id="@+id/inboxBUTTON"

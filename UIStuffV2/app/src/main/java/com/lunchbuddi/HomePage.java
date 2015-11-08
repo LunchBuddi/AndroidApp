@@ -51,6 +51,13 @@ public class HomePage extends ActionBarActivity {
         startActivity(intent);
     }
 
+    //Opens up the FindLunch page from the HomePage
+    public void homePageToFindLunch(View view)
+    {
+        Intent intent=new Intent(this, FindLunch.class);
+        startActivity(intent);
+    }
+
     //Opens up the Inbox page from the HomePage
     public void homePageToInboxPage(View view)
     {

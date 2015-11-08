@@ -65,6 +65,14 @@
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" >
         </activity>
+        <activity
+            android:name=".FindLunch"
+            android:label="@string/title_activity_find_lunch"
+            android:parentActivityName=".HomePage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lunchbuddi.HomePage" />
+        </activity>
     </application>
 
 </manifest>
