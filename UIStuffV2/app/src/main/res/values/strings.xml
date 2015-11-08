@@ -61,7 +61,7 @@
     <string name="Finish">Finish</string>
     <!-- END -->
 
-    <!-- activity_homepage.xmlepage.xml STRINGS -->
+    <!-- activity_homepage.xml STRINGS -->
     <string name="Home_Banner">Home</string>
     <string name="scheduleButton">Schedule</string>
     <string name="findlunchButton">Find Lunch</string>
@@ -115,12 +115,12 @@
     <string name="schedule_banner">Schedule Banner</string>
     <!-- END -->
 
-    <!-- activity_find_lunch.xmlch.xml STRINGS -->
+    <!-- activity_find_lunch.xml STRINGS -->
     <string name="findlunch_banner">Find Lunch Banner</string>
     <string name="title_activity_main">MainActivity</string>
     <!-- END -->
 
-    <!-- activity_edit_profilerofile.xml STRINGS -->
+    <!-- activity_edit_profile.xml STRINGS -->
     <string name="backtoSettingspageButton">Back to Settings Page</string>
     <string name="EditProfilePageBanner">Edit Profile</string>
     <string name="Edit_Name">Edit Name</string>
