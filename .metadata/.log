@@ -1,0 +1,76 @@
+!SESSION 2015-11-29 16:21:34.477 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-11-29 16:22:31.239
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.core.jobs 2 2 2015-11-29 16:24:20.528
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.oomph.setup.ui.SetupUIPlugin$1$1
+!SESSION 2015-11-29 16:28:39.313 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-11-29 16:28:42.744
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.equinox.p2.director 4 10054 2015-11-29 16:29:13.855
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2015-11-29 16:29:13.855
+!MESSAGE Software being installed: artificial_root 1.0.0.v1448836153024
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-11-29 16:29:13.855
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-11-29 16:29:13.855
+!MESSAGE Ant Build Tool Core 3.4.0.v20150428-1928 (org.eclipse.ant.core 3.4.0.v20150428-1928)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-11-29 16:29:13.855
+!MESSAGE Ant Build Tool Core 3.3.0.v20140518-0042 (org.eclipse.ant.core 3.3.0.v20140518-0042)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-11-29 16:29:13.855
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-11-29 16:29:13.855
+!MESSAGE From: artificial_root 1.0.0.v1448836153024
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-11-29 16:29:13.855
+!MESSAGE To: org.eclipse.platform.feature.group [4.4.0,4.5.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-11-29 16:29:13.855
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-11-29 16:29:13.855
+!MESSAGE From: artificial_root 1.0.0.v1448836153024
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-11-29 16:29:13.855
+!MESSAGE To: org.eclipse.platform.feature.group [4.5.0,4.6.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-11-29 16:29:13.855
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-11-29 16:29:13.855
+!MESSAGE From: Eclipse Platform 4.4.0.v20140925-0400 (org.eclipse.platform.feature.group 4.4.0.v20140925-0400)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-11-29 16:29:13.855
+!MESSAGE To: org.eclipse.ant.core [3.3.0.v20140518-0042]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-11-29 16:29:13.856
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-11-29 16:29:13.856
+!MESSAGE From: Eclipse Platform 4.5.1.v20150904-0015 (org.eclipse.platform.feature.group 4.5.1.v20150904-0015)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-11-29 16:29:13.856
+!MESSAGE To: org.eclipse.ant.core [3.4.0.v20150428-1928]

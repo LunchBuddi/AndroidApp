@@ -1,0 +1,29 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => GameSparksSDK\src\main\AndroidManifest.xml
+* libs\gson-2.2.4.jar => GameSparksSDK\libs\gson-2.2.4.jar
+* libs\json-simple-1.1.jar => GameSparksSDK\libs\json-simple-1.1.jar
+* lint.xml => GameSparksSDK\lint.xml
+* res\ => GameSparksSDK\src\main\res\
+* src\ => GameSparksSDK\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
