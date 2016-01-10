@@ -5,8 +5,8 @@
     android:background="#ffffff"
     android:orientation="vertical">
     <!-- Author: Emily Black -->
-    <!-- Edited: 9/27/15 -->
-    <!-- Comments above imagebuttons are the functions they should have after being clicked-->
+    <!-- Edited: 1/8/16 -->
+    <!-- Comments above imagebuttons are the functions they should have after being clicked.-->
 
     <ImageView
         android:contentDescription="@string/SettingsBanner"
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/deleteaccountButton"
             android:src="@drawable/deleteaccountbutton"
-            android:onClick="methodToGoToDeleteAccountPage"/>
+            android:onClick="settingsToDeleteAccount"/>
     </LinearLayout>
 
     <LinearLayout
@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/Report_Abuse"
             android:src="@drawable/reportabusebutton"
-            android:onClick="methodToGoToReportAbusePage"/>
+            android:onClick="settingsToReportAbuse"/>
 
         <ImageButton
             android:id="@+id/AboutUsBUTTON"
@@ -88,7 +88,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/aboutusButton"
             android:src="@drawable/aboutusbutton"
-            android:onClick="methodToGoToAboutUsPage"/>
+            android:onClick="settingsToAboutUs"/>
     </LinearLayout>
 
     <LinearLayout
@@ -124,7 +124,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/helpButton"
             android:src="@drawable/helpbutton"
-            android:onClick="methodToGoToHelpPage"/>
+            android:onClick="settingsToHelp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -148,7 +148,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/sponsors"
             android:src="@drawable/sponsorsbutton"
-            android:onClick="methodToGoToSponsorsPage"/>
+            android:onClick="settingsToSponsors"/>
 
         <ImageButton
             android:id="@+id/couponsBUTTON"
@@ -158,7 +158,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/coupons"
             android:src="@drawable/couponsbutton"
-            android:onClick="methodToGoToCouponsPage"/>
+            android:onClick="settingsToCoupons"/>
     </LinearLayout>
 
     <LinearLayout

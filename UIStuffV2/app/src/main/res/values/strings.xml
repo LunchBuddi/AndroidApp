@@ -149,6 +149,7 @@
     <string name="title_activity_edit_profile">EditProfile</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_find_lunch">FindLunch</string>
+    <string name="title_activity_coupons">Coupons</string>
     <!-- END -->
 
 </resources>

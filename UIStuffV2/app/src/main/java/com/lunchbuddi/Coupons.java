@@ -1,24 +1,24 @@
 package com.lunchbuddi;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class Settings extends ActionBarActivity {
+import com.lunchbuddi.R;
+
+public class Coupons extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_settings);
+        setContentView(R.layout.activity_coupons);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_settings, menu);
+        getMenuInflater().inflate(R.menu.menu_coupons, menu);
         return true;
     }
 
@@ -35,17 +35,5 @@ public class Settings extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    public void settingsToEditProfile(View view)
-    {
-        Intent intent=new Intent(this, EditProfile.class);
-        startActivity(intent);
-    }
-
-    public void settingsToCoupons(View view)
-    {
-        Intent intent= new Intent(this, Coupons.class);
-        startActivity(intent);
     }
 }
