@@ -1,119 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
-    android:orientation="vertical"
     android:background="#ffffff"
-    android:weightSum="1">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerHorizontal="true">
 
     <!-- Author: Emily Black -->
-    <!-- Edited: 9/27/15 -->
+    <!-- Edited: 1/11/16 -->
 
     <ImageView
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
+        android:layout_weight="4"
         android:id="@+id/loginlogo"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="250dp"
         android:contentDescription="@string/MAINLOGO"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/transparentlogo"/>
     <!-- We're not quite sure who owns this ^ image. Check with Adrienne -->
 
-    <LinearLayout
-        android:layout_below="@+id/loginlogo"
-        android:id="@+id/loginll1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
-
-        <EditText
-            android:layout_width="344dp"
-            android:layout_height="52dp"
-            android:id="@+id/ouEmailInput"
-            android:maxLines="1"
-            android:inputType="textEmailAddress"
-            android:hint="@string/OU_Email"
-            android:layout_marginBottom="10dp"
-            android:layout_gravity="center_horizontal" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_below="@+id/loginll1"
-        android:id="@+id/loginll2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
-
-        <EditText
-            android:layout_width="344dp"
-            android:layout_height="52dp"
-            android:id="@+id/passWordInput"
-            android:maxLines="1"
-            android:inputType="textPassword"
-            android:hint="@string/Password"
-            android:layout_marginBottom="10dp"
-            android:layout_gravity="center_horizontal" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_below="@+id/loginll2"
-        android:id="@+id/loginll3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
-
-        <EditText
-            android:layout_width="344dp"
-            android:layout_height="52dp"
-            android:id="@+id/verificationCode"
-            android:maxLines="1"
-            android:inputType="number"
-            android:hint="@string/Verification_Code"
-            android:layout_marginBottom="10dp"
-            android:layout_gravity="center_horizontal" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_below="@+id/loginll3"
-        android:id="@+id/loginll4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
+    <EditText
+        android:layout_weight="2"
+        android:textColorHint="#000000"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:gravity="center_horizontal"
-        android:weightSum="1">
+        android:layout_height="wrap_content"
+        android:id="@+id/ouEmailInput"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:hint="@string/Email"
+        android:layout_gravity="center_horizontal" />
 
-        <Button
-            android:gravity="center"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/Login"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/loginButton"
-            android:layout_gravity="center_horizontal"
-            android:onClick="methodToGoToHomepage" />
+    <EditText
+        android:layout_weight="2"
+        android:textColorHint="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordInput"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:hint="@string/Password"
+        android:layout_gravity="center_horizontal" />
 
-    </LinearLayout>
-</RelativeLayout>
+    <EditText
+        android:layout_weight="2"
+        android:textColorHint="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/verificationCode"
+        android:maxLines="1"
+        android:inputType="number"
+        android:hint="@string/Verification_Code"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Login"
+        android:id="@+id/loginButton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="loginToHomePage" />
+
+    <Button
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Register"
+        android:id="@+id/registerButton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="methodToGoToRegisterPage1" />
+
+</LinearLayout>

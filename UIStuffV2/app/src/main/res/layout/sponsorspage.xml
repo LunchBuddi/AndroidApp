@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="#ffffff">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerHorizontal="true">
 
     <!-- Author: Emily Black -->
-    <!-- Edited: 9/27/15 -->
+    <!-- Edited: 1/11/16 -->
 
+    <ListView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewForSponsors" />
 
-    <!-- NEED TO FINISH THIS PAGE -->
-    <ImageView
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:id="@+id/sponsorsbanner"
-        android:contentDescription="@string/SponsorsBanner"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:src="@drawable/sponsorspagebanner"
-        android:layout_gravity="top"
-        android:focusableInTouchMode="false"
-        />
-
-</RelativeLayout>
+</LinearLayout>

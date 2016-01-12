@@ -1,157 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Author: Emily Black -->
-<!-- Edited: 9/27/15 -->
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    android:weightSum="1">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerHorizontal="true">
 
-    <ImageView
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:contentDescription="@string/socialmediaButton"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:src="@drawable/socialmediabanner"
-        android:layout_gravity="top"
-        android:focusableInTouchMode="false"
-        android:id="@+id/bannersocialmediapage"
-        />
-
-    <!-- FIRST ROW OF BUTTONS -->
-
+    <!-- Author: Emily Black -->
+    <!-- Edited: 1/11/16 -->
 
     <LinearLayout
+        android:id="@+id/linearlayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:orientation="horizontal"
+        android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:weightSum="1"
-        android:id="@+id/linearlayout1"
-        android:layout_below="@+id/bannersocialmediapage"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        >
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/instagramBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/instagramButton"
-            android:src="@drawable/instagramicon"
-            android:onClick="methodToGoToInstagramWebsite"/>
+            android:onClick="methodToGoToInstagramWebsite"
+            android:src="@drawable/instagramicon"/>
 
         <ImageButton
             android:id="@+id/facebookBUTTON"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/facebookButton"
-            android:src="@drawable/facebookicon"
-            android:onClick="methodToGoToFacebookWebsite"/>
+            android:onClick="methodToGoToFacebookWebsite"
+            android:src="@drawable/facebookicon"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_below="@id/linearlayout1"
+        android:id="@+id/linearlayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:paddingTop="5dp"
-        android:weightSum="1"
-        android:id="@+id/linearlayout2"
+        android:orientation="horizontal"
         >
 
         <ImageButton
             android:id="@+id/youtubeBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/youtubeButton"
-            android:src="@drawable/youtubeicon"
-            android:onClick="methodToGoToYoutubeWebsite"/>
+            android:onClick="methodToGoToYoutubeWebsite"
+            android:src="@drawable/youtubeicon"/>
 
         <ImageButton
             android:id="@+id/twitterBUTTON"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/twitterButton"
-            android:src="@drawable/twittericon"
-            android:onClick="methodToGoToTwitterWebsite"/>
+            android:onClick="methodToGoToTwitterWebsite"
+            android:src="@drawable/twittericon"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_below="@id/linearlayout2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
+        android:id="@+id/linearlayout3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:paddingTop="5dp"
-        android:weightSum="1"
-        android:id="@+id/linearlayout3">
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/pinterestBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/pinterestButton"
-            android:src="@drawable/pinteresticon"
-            android:onClick="methodToGoToPinterestWebsite"/>
+            android:onClick="methodToGoToPinterestWebsite"
+            android:src="@drawable/pinteresticon"/>
 
         <ImageButton
             android:id="@+id/tumblrBUTTON"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/tumblrButton"
-            android:src="@drawable/tumblricon"
-            android:onClick="methodToGoToTumblrPage"/>
+            android:onClick="methodToGoToTumblrPage"
+            android:src="@drawable/tumblricon"/>
 
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center_horizontal"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:weightSum="1"
-        android:id="@+id/linearlayout4">
-
-        <Button
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/backtoHomeButton"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/backtoHomeButton"
-            android:gravity="center"
-            android:onClick="methodToGoToHomepage" />
-
-        </LinearLayout>
-
-</RelativeLayout>
+</LinearLayout>

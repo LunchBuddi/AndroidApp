@@ -1,44 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    android:orientation="vertical">
-    <!-- Author: Emily Black -->
-    <!-- Edited: 1/8/16 -->
-    <!-- Comments above imagebuttons are the functions they should have after being clicked.-->
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerHorizontal="true">
 
-    <ImageView
-        android:contentDescription="@string/SettingsBanner"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:src="@drawable/settingsbanner"
-        android:layout_gravity="top"
-        android:focusableInTouchMode="false"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:id="@+id/bannersettingspage"
-        />
+    <!-- Author: Emily Black -->
+    <!-- Edited: 1/11/16 -->
+    <!-- Comments above imagebuttons are the functions they should have after being clicked.-->
 
     <LinearLayout
         android:id="@+id/ll1"
-        android:layout_below="@+id/bannersettingspage"
         android:gravity="center_horizontal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:weightSum="1">
+        android:weightSum="2">
 
         <ImageButton
             android:id="@+id/editprofileBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/Edit_Profile"
             android:src="@drawable/editprofilebutton"
@@ -47,9 +31,7 @@
         <!-- THE DELETE ACCOUNT BUTTON SHOULD PROMPT AN "ARE YOU SURE BOX" BEFORE DELETEING THEIR ACCOUNT! -->
         <ImageButton
             android:id="@+id/deleteaccountBUTTON"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/deleteaccountButton"
             android:src="@drawable/deleteaccountbutton"
@@ -58,23 +40,17 @@
 
     <LinearLayout
         android:id="@+id/ll2"
-        android:layout_below="@id/ll1"
         android:gravity="center_horizontal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:weightSum="1">
+        android:weightSum="2">
 
         <!-- POPUP BOX SHOULD OPEN UP AND DISPLAY OUR SUPPORT EMAIL ADDRESS -->
         <ImageButton
             android:id="@+id/reportabuseBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/Report_Abuse"
             android:src="@drawable/reportabusebutton"
@@ -82,9 +58,7 @@
 
         <ImageButton
             android:id="@+id/AboutUsBUTTON"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/aboutusButton"
             android:src="@drawable/aboutusbutton"
@@ -93,23 +67,17 @@
 
     <LinearLayout
         android:id="@+id/ll3"
-        android:layout_below="@id/ll2"
         android:gravity="center_horizontal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:weightSum="1">
+        android:weightSum="2">
 
         <!-- THE FEEDBACK BUTTON SHOULD OPEN THEM UP TO THE ANDROID STORE AND OPEN UP THE ADD A REVIEW PAGE -->
         <ImageButton
             android:id="@+id/feedbackBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/feedback"
             android:src="@drawable/feedbackbutton"
@@ -118,9 +86,7 @@
         <!-- POPUP BOX SHOULD OPEN UP AND DISPLAY OUR SUPPORT EMAIL ADDRESS -->
         <ImageButton
             android:id="@+id/helpBUTTON"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/helpButton"
             android:src="@drawable/helpbutton"
@@ -129,22 +95,16 @@
 
     <LinearLayout
         android:id="@+id/ll4"
-        android:layout_below="@id/ll3"
         android:gravity="center_horizontal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:weightSum="1">
+        android:weightSum="2">
 
         <ImageButton
             android:id="@+id/sponsorsBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/sponsors"
             android:src="@drawable/sponsorsbutton"
@@ -152,39 +112,10 @@
 
         <ImageButton
             android:id="@+id/couponsBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/coupons"
             android:src="@drawable/couponsbutton"
             android:onClick="settingsToCoupons"/>
     </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/ll5"
-        android:layout_below="@id/ll4"
-        android:gravity="center_horizontal"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:weightSum="1">
-
-        <Button
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/backtoHomeButton"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/backtoHomeButton"
-            android:gravity="center"
-            android:onClick="methodToGoToHomepage" />
-
-
-    </LinearLayout>
-</RelativeLayout>
+</LinearLayout>

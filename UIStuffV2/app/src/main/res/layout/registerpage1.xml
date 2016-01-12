@@ -1,106 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#ffffff"
-    android:layout_gravity="fill_horizontal"
-    android:weightSum="1">
-
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerHorizontal="true">
     <!-- Author: Emily Black -->
-    <!-- Edited: 9/27/15 -->
-
-    <ImageView
-        android:id="@+id/registeraccountbanner"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:contentDescription="@string/Register_Account_Banner"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:layout_gravity="fill_horizontal"
-        android:focusableInTouchMode="false"
-        android:src="@drawable/registeraccountbanner"
-        />
-
-        <LinearLayout
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:gravity="center_horizontal"
-            android:layout_below="@+id/registeraccountbanner"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_gravity="center_vertical"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
-            android:paddingTop="25dp"
-            android:weightSum="1"
-            >
+    <!-- Edited: 1/11/16 -->
 
             <EditText
                 android:id="@+id/newFullName"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="10dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
                 android:lines="1"
                 android:hint="@string/Full_Name"
-                android:layout_weight="0.10"
+                android:textColorHint="#000000"
+                android:layout_weight="1"
                 android:inputType="textPersonName"
                />
 
             <EditText
-                android:layout_marginBottom="10dp"
                 android:id="@+id/newOuEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lines="1"
-                android:layout_weight="0.10"
-                android:layout_gravity="center_horizontal"
-                android:hint="@string/OU_Email"
+                android:layout_weight="1"
+                android:hint="@string/Email"
+                android:textColorHint="#000000"
                 android:inputType="textEmailAddress" />
 
             <Spinner
-                android:layout_marginBottom="10dp"
                 android:id="@+id/spinnerForMajors"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.10"
+                android:layout_weight="1"
+                android:textColorHint="#000000"
                 android:hint="@string/Chosen_Major"
                 />
 
             <Spinner
-                android:layout_marginBottom="10dp"
                 android:id="@+id/spinnerForGradYear"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.10"
+                android:layout_weight="1"
+                android:textColorHint="#000000"
                 android:hint="@string/Graduation_Year"
                 />
 
             <EditText
-                android:layout_marginBottom="10dp"
                 android:id="@+id/newPassWord"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
                 android:lines="1"
-                android:layout_weight="0.10"
+                android:layout_weight="1"
                 android:hint="@string/New_Password"
+                android:textColorHint="#000000"
                 android:inputType="textPassword" />
 
             <Button
-                android:layout_marginBottom="10dp"
                 android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Next_Page"
                 android:id="@+id/buttonToRegisterPage2"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="0.15"
+                android:layout_weight="1"
                 android:onClick="MethodToGoToRegisterPage2" />
-
-    </LinearLayout>
-</RelativeLayout>
+</LinearLayout>

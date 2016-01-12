@@ -1,108 +1,76 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#ffffff"
-    android:weightSum="1">
-
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerHorizontal="true">
     <!-- Author: Emily Black -->
-    <!-- Edited: 9/27/15 -->
+    <!-- Edited: 1/11/16 -->
 
-    <ImageView
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:id="@+id/registeraccountbanner"
+    <Spinner
+        android:id="@+id/favoritePlacesToEat"
         android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:layout_gravity="fill_horizontal"
-        android:focusableInTouchMode="false"
-        android:src="@drawable/registeraccountbanner"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColorHint="#000000"
+        android:hint="@string/Favorite_Places_to_Eat"
         />
 
-    <LinearLayout
-        android:layout_below="@+id/registeraccountbanner"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:gravity="center_horizontal"
+    <CheckBox
+        android:id="@+id/ibringmylunchCHECKBOX"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp"
-        android:weightSum="1"
-        >
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:text="@string/I_Bring_My_Lunch" />
 
-        <Spinner
-            android:layout_marginBottom="10dp"
-            android:id="@+id/favoritePlacesToEat"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:hint="@string/Favorite_Places_to_Eat"
-            />
+    <CheckBox
+        android:id="@+id/idontbringmylunchCHECKBOX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:text="@string/I_Dont_Bring_My_Lunch" />
 
+    <CheckBox
+        android:id="@+id/idobothCHECKBOX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:text="@string/I_Do_Both" />
 
-        <CheckBox
-            android:layout_marginBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/I_Bring_My_Lunch"
-            android:id="@+id/ibringmylunchCHECKBOX"
-            android:layout_weight="0.10"
-            android:layout_gravity="center|start" />
+    <Spinner
+        android:id="@+id/spinnerForCurrentClubsTheyreIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColorHint="#000000"
+        android:hint="@string/Clubs_Youre_In"
+        />
 
-        <CheckBox
-            android:layout_marginBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/I_Dont_Bring_My_Lunch"
-            android:id="@+id/idontbringmylunchCHECKBOX"
-            android:layout_weight="0.10"
-            android:layout_gravity="center|start" />
+    <!-- Maybe this could be a list of interests such as sports/etc? -->
+    <Spinner
+        android:id="@+id/spinnerForInterests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColorHint="#000000"
+        android:hint="@string/InterestsList"
+        />
 
-        <CheckBox
-            android:layout_marginBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/I_Do_Both"
-            android:id="@+id/idobothCHECKBOX"
-            android:layout_weight="0.10"
-            android:layout_gravity="center|start" />
-
-        <Spinner
-            android:layout_marginBottom="10dp"
-            android:id="@+id/spinnerForCurrentClubsTheyreIn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:hint="@string/Clubs_Youre_In"
-            />
-
-        <!-- Maybe this could be a list of interests such as sports/etc? -->
-        <Spinner
-            android:layout_marginBottom="10dp"
-            android:id="@+id/spinnerForInterests"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:hint="@string/InterestsList"
-            />
-
-
-        <Button
-            android:layout_marginBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Finish"
-            android:id="@+id/buttonToNewLoginPage"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0.15"
-            android:onClick="MethodToGoToNewLoginPage"
-            />
-
-
-    </LinearLayout>
-</RelativeLayout>
+    <Button
+        android:id="@+id/buttonToNewLoginPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:onClick="MethodToGoToNewLoginPage"
+        android:text="@string/Finish"
+        />
+</LinearLayout>

@@ -1,48 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    android:weightSum="1">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerHorizontal="true">
 
     <!-- Author: Emily Black -->
-    <!-- Edited: 9/27/15 -->
+    <!-- Edited: 1/11/16 -->
 
-    <ImageView
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:id="@+id/homepagebanner"
-        android:contentDescription="@string/Home_Banner"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:src="@drawable/homebanner"
-        android:layout_gravity="top"
-        android:focusableInTouchMode="false"
-        />
-
-        <!-- FIRST ROW OF BUTTONS -->
         <LinearLayout
-            android:gravity="center_horizontal"
             android:id="@+id/linearlayoutone"
-            android:layout_below="@+id/homepagebanner"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:background="#ffffff"
+            android:gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="5dp"
             android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
-            android:weightSum="1">
+            android:weightSum="2">
             
             <ImageButton
                 android:id="@+id/scheduleBUTTON"
-                android:paddingRight="30dp"
-                android:paddingLeft="30dp"
-                android:layout_width="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/scheduleButton"
                 android:src="@drawable/scheduleicon"
@@ -50,9 +31,9 @@
 
             <ImageButton
                 android:id="@+id/findlunchBUTTON"
-                android:paddingLeft="30dp"
-                android:paddingRight="30dp"
-                android:layout_width="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/findlunchButton"
                 android:src="@drawable/findlunchbutton"
@@ -61,23 +42,19 @@
         </LinearLayout>
 
     <LinearLayout
-        android:gravity="center_horizontal"
         android:id="@+id/linearlayouttwo"
-        android:layout_below="@+id/linearlayoutone"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:paddingTop="5dp"
-        android:weightSum="1">
+        android:weightSum="2">
 
         <ImageButton
             android:id="@+id/mapBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/mapButton"
             android:src="@drawable/mapbutton"
@@ -85,9 +62,9 @@
 
         <ImageButton
             android:id="@+id/inboxBUTTON"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:layout_width="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/inboxButton"
             android:src="@drawable/inboxbutton"
@@ -96,23 +73,19 @@
         </LinearLayout>
 
     <LinearLayout
-        android:gravity="center_horizontal"
         android:id="@+id/linearlayoutthree"
-        android:layout_below="@+id/linearlayouttwo"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:paddingTop="5dp"
-        android:weightSum="1">
+        android:weightSum="2">
 
         <ImageButton
             android:id="@+id/socialmediaBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/socialmediaButton"
             android:src="@drawable/socialmediabutton"
@@ -120,39 +93,13 @@
 
         <ImageButton
             android:id="@+id/settingsBUTTON"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:layout_width="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/settingsButton"
             android:src="@drawable/settingsbutton"
             android:onClick="homePageToSettingsPage"/>
 
         </LinearLayout>
-
-    <LinearLayout
-        android:gravity="center_horizontal"
-        android:id="@+id/linearlayoutfour"
-        android:layout_below="@+id/linearlayoutthree"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:weightSum="1">
-
-        <Button
-            android:gravity="center"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/logoutButton"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/logoutButton"
-            android:layout_gravity="center_horizontal"
-            android:onClick="methodToGoToLoginPage" />
-    </LinearLayout>
-
-</RelativeLayout>
+</LinearLayout>

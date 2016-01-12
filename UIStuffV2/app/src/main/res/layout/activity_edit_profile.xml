@@ -1,185 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerHorizontal="true">
 
     <!-- Author: Emily Black -->
-    <!-- Edited: 9/27/15 -->
-
-    <ImageView
-        android:contentDescription="@string/EditProfilePageBanner"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:src="@drawable/editprofilepagebanner"
-        android:layout_gravity="top"
-        android:focusableInTouchMode="false"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:id="@+id/banner_editprofilepage"
-        />
+    <!-- Edited: 1/11/16 -->
 
     <LinearLayout
         android:id="@+id/linearlayout11"
-        android:layout_below="@+id/banner_editprofilepage"
-        android:gravity="center_horizontal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:weightSum="1">
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/editnameBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/Edit_Name"
-            android:src="@drawable/editnamebutton"
-            android:onClick="methodToEditName"/>
+            android:onClick="methodToEditName"
+            android:src="@drawable/editnamebutton"/>
 
         <ImageButton
             android:id="@+id/editemailBUTTON"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/editemailButton"
-            android:src="@drawable/editemailbutton"
-            android:onClick="methodToEditEmail"/>
+            android:onClick="methodToEditEmail"
+            android:src="@drawable/editemailbutton"/>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearlayout22"
-        android:layout_below="@id/linearlayout11"
-        android:gravity="center_horizontal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:weightSum="1">
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/editinterestsBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/editinterests"
-            android:src="@drawable/editinterestsbutton"
-            android:onClick="methodToEditInterests"/>
+            android:onClick="methodToEditInterests"
+            android:src="@drawable/editinterestsbutton"/>
 
         <ImageButton
             android:id="@+id/editmajorBUTTON"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/editmajorButton"
-            android:src="@drawable/editmajorbutton"
-            android:onClick="methodToEditMajor"/>
+            android:onClick="methodToEditMajor"
+            android:src="@drawable/editmajorbutton"/>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearlayout33"
-        android:layout_below="@id/linearlayout22"
-        android:gravity="center_horizontal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:weightSum="1">
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/editgradyearBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/editgradyearbutton"
-            android:src="@drawable/editgradyearbutton"
-            android:onClick="methodToEditGradYear"/>
+            android:onClick="methodToEditGradYear"
+            android:src="@drawable/editgradyearbutton"/>
 
         <ImageButton
             android:id="@+id/editavailabilityBUTTON"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/editavailabilityButton"
-            android:src="@drawable/editavailabilitybutton"
-            android:onClick="methodToEditAvailability"/>
+            android:onClick="methodToEditAvailability"
+            android:src="@drawable/editavailabilitybutton"/>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearlayout44"
-        android:layout_below="@id/linearlayout33"
-        android:gravity="center_horizontal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:weightSum="1">
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/editfavplacestoeatBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/editfavplacestoeatbutton"
-            android:src="@drawable/editfavplacestoeatbutton"
-            android:onClick="methodToEditFavoritePlacesToEat"/>
+            android:onClick="methodToEditFavoritePlacesToEat"
+            android:src="@drawable/editfavplacestoeatbutton"/>
 
         <ImageButton
             android:id="@+id/editcurrentclubsBUTTON"
-            android:paddingRight="30dp"
-            android:paddingLeft="30dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/editcurrentclubsbutton"
-            android:src="@drawable/editcurrentclubsbutton"
-            android:onClick="methodToEditCurrentClubsTheyreIn"/>
+            android:onClick="methodToEditCurrentClubsTheyreIn"
+            android:src="@drawable/editcurrentclubsbutton"/>
     </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/ll5"
-        android:layout_below="@id/linearlayout44"
-        android:gravity="center_horizontal"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:weightSum="1">
-
-        <Button
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/backtoSettingspageButton"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/backtoSettingspageButton"
-            android:gravity="center"
-            android:onClick="methodToGoToSettingsPage" />
-
-    </LinearLayout>
-    </RelativeLayout>
+</LinearLayout>

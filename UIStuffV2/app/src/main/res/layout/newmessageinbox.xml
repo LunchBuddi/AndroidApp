@@ -1,87 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#ffffff"
-    >
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerHorizontal="true">
 
     <!-- Author: Emily Black -->
-    <!-- Edited: 9/27/15 -->
+    <!-- Edited: 1/11/16 -->
     <!-- The spinner is for people who the user can message -->
     <!-- This edit text is for the message (maybe add limit?) -->
 
-    <ImageView
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:id="@+id/newmessagebanner"
-        android:contentDescription="@string/Home_Banner"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:src="@drawable/newmessagebanner"
-        android:layout_gravity="top"
-        android:focusableInTouchMode="false"
-        />
-
-    <LinearLayout
-        android:orientation="horizontal"
+    <Spinner
+        android:layout_weight="1"
+        android:hint="@string/Mail_Recipient"
+        android:textColorHint="#000000"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearlayout1"
-        android:layout_below="@+id/newmessagebanner"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:paddingBottom="@dimen/activity_vertical_margin">
+        android:id="@+id/spinnerForAvailableMailRecip" />
 
-
-        <Spinner
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinnerForAvailableMailRecip"
-            android:layout_above="@+id/linearlayout1"
-            android:layout_centerHorizontal="true" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
+    <EditText
+        android:layout_weight="30"
+        android:gravity="top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearlayout2"
-        android:layout_below="@+id/linearlayout1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_above="@+id/button_container">
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText" />
 
-        <EditText
-            android:gravity="top"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:inputType="textMultiLine"
-            android:ems="10"
-            android:id="@+id/editText"
-            android:layout_centerHorizontal="true"
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button_container"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        >
-
-        <Button
-            android:textStyle="bold"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/backtoInboxPage"
-            android:id="@+id/backtoInboxPageButton"
-            android:gravity="center"
-            android:onClick="methodToGoToInboxPage" />
 
         <Button
             android:gravity="center"
@@ -92,12 +39,5 @@
             android:onClick="methodToSendNewMessage"
             android:id="@+id/sendMessageButton"
             android:text="@string/sendMessageButton"/>
-
         <!-- After sending a message, automatically redirect them home -->
-
-    </LinearLayout>
-
-
-
-
-</RelativeLayout>
+</LinearLayout>

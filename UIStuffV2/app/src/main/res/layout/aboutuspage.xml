@@ -1,99 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerHorizontal="true">
     <!-- Author: Emily Black -->
-    <!-- Edited: 9/27/15 -->
+    <!-- Edited: 1/11/16 -->
 
     <ImageView
-        android:contentDescription="@string/AboutUsBanner"
+        android:id="@+id/underconstructionimage"
         android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:src="@drawable/aboutuspagebanner"
-        android:layout_gravity="top"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
         android:focusableInTouchMode="false"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:id="@+id/banneraboutuspage"
+        android:src="@drawable/underconstructionpage"
         />
 
-    <LinearLayout
-        android:id="@+id/LINEARLAYOUT1"
-        android:layout_below="@+id/banneraboutuspage"
-        android:gravity="center_horizontal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:weightSum="1">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/under_construction"
-            android:id="@+id/textView"
-            android:layout_below="@+id/LINEARLAYOUT1"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="79dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/LINEARLAYOUT2"
-        android:layout_below="@+id/LINEARLAYOUT1"
-        android:gravity="center_horizontal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:weightSum="1">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/underconstructionpage"
-            android:focusableInTouchMode="false"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:id="@+id/underconstructionimage"
-            />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/LINEARLAYOUT3"
-        android:layout_below="@+id/LINEARLAYOUT2"
-        android:gravity="center_horizontal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:weightSum="1">
-
-        <Button
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="@string/backtoSettingspageButton"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/backtoSeetingspageButton"
-            android:gravity="center"
-            android:onClick="methodToGoToSettingsPage" />
-
-        </LinearLayout>
-
-
-
-</RelativeLayout>
+</LinearLayout>

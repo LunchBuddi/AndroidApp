@@ -6,7 +6,7 @@
     <!-- activity_login.xml STRINGS -->
     <string name="Login">Login</string>
     <string name="MAINLOGO">Logo</string>
-    <string name="OU_Email">OU Email</string>
+    <string name="Email">Email</string>
     <string name="Password">Password</string>
     <string name="Register">Register</string>
     <!-- Strings related to Login (not used yet)-->
@@ -107,6 +107,7 @@
     <!-- END -->
 
     <!-- newmessageinbox.xml STRINGS -->
+    <string name="Mail_Recipient">Message Recipient</string>
     <string name="sendMessageButton">Send</string>
     <string name="backtoInboxPage">Cancel</string>
     <!-- END -->
