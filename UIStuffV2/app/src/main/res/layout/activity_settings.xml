@@ -21,6 +21,10 @@
         android:weightSum="2">
 
         <ImageButton
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
             android:id="@+id/editprofileBUTTON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,6 +34,10 @@
 
         <!-- THE DELETE ACCOUNT BUTTON SHOULD PROMPT AN "ARE YOU SURE BOX" BEFORE DELETEING THEIR ACCOUNT! -->
         <ImageButton
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
             android:id="@+id/deleteaccountBUTTON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,6 +57,10 @@
 
         <!-- POPUP BOX SHOULD OPEN UP AND DISPLAY OUR SUPPORT EMAIL ADDRESS -->
         <ImageButton
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
             android:id="@+id/reportabuseBUTTON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,6 +69,10 @@
             android:onClick="settingsToReportAbuse"/>
 
         <ImageButton
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
             android:id="@+id/AboutUsBUTTON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -76,6 +92,10 @@
 
         <!-- THE FEEDBACK BUTTON SHOULD OPEN THEM UP TO THE ANDROID STORE AND OPEN UP THE ADD A REVIEW PAGE -->
         <ImageButton
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
             android:id="@+id/feedbackBUTTON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -85,6 +105,10 @@
 
         <!-- POPUP BOX SHOULD OPEN UP AND DISPLAY OUR SUPPORT EMAIL ADDRESS -->
         <ImageButton
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
             android:id="@+id/helpBUTTON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -103,6 +127,10 @@
         android:weightSum="2">
 
         <ImageButton
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
             android:id="@+id/sponsorsBUTTON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -111,6 +139,10 @@
             android:onClick="settingsToSponsors"/>
 
         <ImageButton
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
             android:id="@+id/couponsBUTTON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
