@@ -1,5 +1,4 @@
 package com.lunchbuddi;
-
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -11,7 +10,6 @@ import android.view.View;
     Author: David McKnight
     Date: 11 October 2015
  */
-
 public class HomePage extends ActionBarActivity {
 
     @Override
