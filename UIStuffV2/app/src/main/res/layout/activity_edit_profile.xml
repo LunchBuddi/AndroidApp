@@ -12,7 +12,7 @@
 
     <LinearLayout
         android:id="@+id/linearlayout11"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center_horizontal"
@@ -25,10 +25,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/editnameBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/Edit_Name"
             android:onClick="methodToEditName"
-            android:src="@drawable/editnamebutton"/>
+            android:src="@drawable/editnamebutton"
+            android:layout_weight="1" />
 
         <ImageButton
             android:paddingLeft="25dp"
@@ -37,10 +38,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/editemailBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/editemailButton"
             android:onClick="methodToEditEmail"
-            android:src="@drawable/editemailbutton"/>
+            android:src="@drawable/editemailbutton"
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout

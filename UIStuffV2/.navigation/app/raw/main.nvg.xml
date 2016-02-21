@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.lunchbuddi.Inbox"/>
+      <point      
+        x = "2448"      
+        y = "304"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.lunchbuddi.HomePage"/>
+      <point      
+        x = "2488"      
+        y = "780"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.lunchbuddi.MapsActivity"/>
+      <point      
+        x = "3152"      
+        y = "1008"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.lunchbuddi.EditProfile"/>
+      <point      
+        x = "348"      
+        y = "1256"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.lunchbuddi.Login"/>
+      <point      
+        x = "3708"      
+        y = "452"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.lunchbuddi.Settings"/>
+      <point      
+        x = "1872"      
+        y = "-100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.lunchbuddi.FindLunch"/>
+      <point      
+        x = "636"      
+        y = "-8"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.lunchbuddi.Coupons"/>
+      <point      
+        x = "300"      
+        y = "244"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

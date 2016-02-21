@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="debug"><source path="C:\Users\Emily\Desktop\Desktop\Lunch Buddi\AndroidApp\UIStuffV2\gameSparksSDK\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="C:\Users\Emily\Desktop\Desktop\Lunch Buddi\AndroidApp\UIStuffV2\gameSparksSDK\src\androidTest\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="debug"><source path="C:\Users\Dave\Documents\GitHub\AndroidApp\UIStuffV2\gameSparksSDK\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="C:\Users\Dave\Documents\GitHub\AndroidApp\UIStuffV2\gameSparksSDK\src\androidTest\assets"/></dataSet></merger>

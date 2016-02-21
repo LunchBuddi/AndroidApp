@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Emily/Desktop/Desktop/Lunch%20Buddi/AndroidApp/UIStuffV2/gameSparksSDK/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Dave/Documents/GitHub/AndroidApp/UIStuffV2/gameSparksSDK/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
