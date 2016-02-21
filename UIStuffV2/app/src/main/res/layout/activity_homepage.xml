@@ -8,16 +8,16 @@
     android:layout_centerHorizontal="true">
 
     <!-- Author: Emily Black -->
-    <!-- Edited: 1/11/16 -->
+    <!-- Edited: 2/21/16 -->
 
         <LinearLayout
             android:id="@+id/linearlayoutone"
             android:gravity="center_horizontal"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
-            android:weightSum="2">
+            android:layout_weight="1">
             
             <ImageButton
                 android:id="@+id/scheduleBUTTON"
@@ -26,10 +26,11 @@
                 android:paddingTop="25dp"
                 android:paddingBottom="25dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:contentDescription="@string/scheduleButton"
                 android:src="@drawable/scheduleicon"
-                android:onClick="methodToGoToSchedulePage"/>
+                android:onClick="methodToGoToSchedulePage"
+                android:layout_weight="1"/>
 
             <ImageButton
                 android:id="@+id/findlunchBUTTON"
@@ -38,21 +39,22 @@
                 android:paddingTop="25dp"
                 android:paddingBottom="25dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:contentDescription="@string/findlunchButton"
                 android:src="@drawable/findlunchbutton"
-                android:onClick="homePageToFindLunch"/>
+                android:onClick="homePageToFindLunch"
+                android:layout_weight="1"/>
 
         </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearlayouttwo"
         android:gravity="center_horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:weightSum="2">
+        android:layout_weight="1">
 
         <ImageButton
             android:id="@+id/mapBUTTON"
@@ -61,10 +63,11 @@
             android:paddingTop="25dp"
             android:paddingBottom="25dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/mapButton"
             android:src="@drawable/mapbutton"
-            android:onClick="homePageToMapsActivity"/>
+            android:onClick="homePageToMapsActivity"
+            android:layout_weight="1"/>
 
         <ImageButton
             android:id="@+id/inboxBUTTON"
@@ -73,21 +76,22 @@
             android:paddingTop="25dp"
             android:paddingBottom="25dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/inboxButton"
             android:src="@drawable/inboxbutton"
-            android:onClick="methodToGoToInboxPage"/>
+            android:onClick="methodToGoToInboxPage"
+            android:layout_weight="1"/>
 
         </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearlayoutthree"
         android:gravity="center_horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:weightSum="2">
+        android:layout_weight="1">
 
         <ImageButton
             android:id="@+id/socialmediaBUTTON"
@@ -96,10 +100,11 @@
             android:paddingTop="25dp"
             android:paddingBottom="25dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/socialmediaButton"
             android:src="@drawable/socialmediabutton"
-            android:onClick="methodToGoToSocialMediaPage"/>
+            android:onClick="methodToGoToSocialMediaPage"
+            android:layout_weight="1"/>
 
         <ImageButton
             android:id="@+id/settingsBUTTON"
@@ -108,10 +113,11 @@
             android:paddingTop="25dp"
             android:paddingBottom="25dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/settingsButton"
             android:src="@drawable/settingsbutton"
-            android:onClick="homePageToSettingsPage"/>
+            android:onClick="homePageToSettingsPage"
+            android:layout_weight="1"/>
 
         </LinearLayout>
 </LinearLayout>

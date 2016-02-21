@@ -8,17 +8,17 @@
     android:layout_centerHorizontal="true">
 
     <!-- Author: Emily Black -->
-    <!-- Edited: 1/11/16 -->
+    <!-- Edited: 2/21/16 -->
     <!-- Comments above imagebuttons are the functions they should have after being clicked.-->
 
     <LinearLayout
         android:id="@+id/ll1"
         android:gravity="center_horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:weightSum="2">
+        android:layout_weight="1">
 
         <ImageButton
             android:paddingLeft="25dp"
@@ -27,10 +27,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/editprofileBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/Edit_Profile"
             android:src="@drawable/editprofilebutton"
-            android:onClick="settingsToEditProfile"/>
+            android:onClick="settingsToEditProfile"
+            android:layout_weight="1"/>
 
         <!-- THE DELETE ACCOUNT BUTTON SHOULD PROMPT AN "ARE YOU SURE BOX" BEFORE DELETEING THEIR ACCOUNT! -->
         <ImageButton
@@ -40,20 +41,21 @@
             android:paddingBottom="25dp"
             android:id="@+id/deleteaccountBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/deleteaccountButton"
             android:src="@drawable/deleteaccountbutton"
-            android:onClick="settingsToDeleteAccount"/>
+            android:onClick="settingsToDeleteAccount"
+            android:layout_weight="1"/>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/ll2"
         android:gravity="center_horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:weightSum="2">
+        android:layout_weight="1">
 
         <!-- POPUP BOX SHOULD OPEN UP AND DISPLAY OUR SUPPORT EMAIL ADDRESS -->
         <ImageButton
@@ -63,10 +65,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/reportabuseBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/Report_Abuse"
             android:src="@drawable/reportabusebutton"
-            android:onClick="settingsToReportAbuse"/>
+            android:onClick="settingsToReportAbuse"
+            android:layout_weight="1"/>
 
         <ImageButton
             android:paddingLeft="25dp"
@@ -75,20 +78,21 @@
             android:paddingBottom="25dp"
             android:id="@+id/AboutUsBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/aboutusButton"
             android:src="@drawable/aboutusbutton"
-            android:onClick="settingsToAboutUs"/>
+            android:onClick="settingsToAboutUs"
+            android:layout_weight="1"/>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/ll3"
         android:gravity="center_horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:weightSum="2">
+        android:layout_weight="1">
 
         <!-- THE FEEDBACK BUTTON SHOULD OPEN THEM UP TO THE ANDROID STORE AND OPEN UP THE ADD A REVIEW PAGE -->
         <ImageButton
@@ -98,10 +102,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/feedbackBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/feedback"
             android:src="@drawable/feedbackbutton"
-            android:onClick="methodToOpenUpReviewPageInAndroidStore"/>
+            android:onClick="methodToOpenUpReviewPageInAndroidStore"
+            android:layout_weight="1"/>
 
         <!-- POPUP BOX SHOULD OPEN UP AND DISPLAY OUR SUPPORT EMAIL ADDRESS -->
         <ImageButton
@@ -111,20 +116,21 @@
             android:paddingBottom="25dp"
             android:id="@+id/helpBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/helpButton"
             android:src="@drawable/helpbutton"
-            android:onClick="settingsToHelp"/>
+            android:onClick="settingsToHelp"
+            android:layout_weight="1"/>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/ll4"
         android:gravity="center_horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:weightSum="2">
+        android:layout_weight="1">
 
         <ImageButton
             android:paddingLeft="25dp"
@@ -133,10 +139,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/sponsorsBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/sponsors"
             android:src="@drawable/sponsorsbutton"
-            android:onClick="settingsToSponsors"/>
+            android:onClick="settingsToSponsors"
+            android:layout_weight="1"/>
 
         <ImageButton
             android:paddingLeft="25dp"
@@ -145,9 +152,10 @@
             android:paddingBottom="25dp"
             android:id="@+id/couponsBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/coupons"
             android:src="@drawable/couponsbutton"
-            android:onClick="settingsToCoupons"/>
+            android:onClick="settingsToCoupons"
+            android:layout_weight="1"/>
     </LinearLayout>
 </LinearLayout>

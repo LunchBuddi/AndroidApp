@@ -8,15 +8,16 @@
     android:layout_centerHorizontal="true">
 
     <!-- Author: Emily Black -->
-    <!-- Edited: 1/11/16 -->
+    <!-- Edited: 2/21/16 -->
 
     <LinearLayout
         android:id="@+id/linearlayout1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        >
 
         <ImageButton
             android:paddingLeft="25dp"
@@ -25,10 +26,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/instagramBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/instagramButton"
             android:onClick="methodToGoToInstagramWebsite"
-            android:src="@drawable/instagramicon"/>
+            android:src="@drawable/instagramicon"
+            android:layout_weight="1"/>
 
         <ImageButton
             android:paddingLeft="25dp"
@@ -37,16 +39,17 @@
             android:paddingBottom="25dp"
             android:id="@+id/facebookBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/facebookButton"
             android:onClick="methodToGoToFacebookWebsite"
-            android:src="@drawable/facebookicon"/>
+            android:src="@drawable/facebookicon"
+            android:layout_weight="1"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearlayout2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center_horizontal"
@@ -60,10 +63,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/youtubeBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/youtubeButton"
             android:onClick="methodToGoToYoutubeWebsite"
-            android:src="@drawable/youtubeicon"/>
+            android:src="@drawable/youtubeicon"
+            android:layout_weight="1"/>
 
         <ImageButton
             android:paddingLeft="25dp"
@@ -72,16 +76,17 @@
             android:paddingBottom="25dp"
             android:id="@+id/twitterBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/twitterButton"
             android:onClick="methodToGoToTwitterWebsite"
-            android:src="@drawable/twittericon"/>
+            android:src="@drawable/twittericon"
+            android:layout_weight="1"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearlayout3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center_horizontal"
@@ -94,10 +99,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/pinterestBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/pinterestButton"
             android:onClick="methodToGoToPinterestWebsite"
-            android:src="@drawable/pinteresticon"/>
+            android:src="@drawable/pinteresticon"
+            android:layout_weight="1"/>
 
         <ImageButton
             android:paddingLeft="25dp"
@@ -106,10 +112,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/tumblrBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/tumblrButton"
             android:onClick="methodToGoToTumblrPage"
-            android:src="@drawable/tumblricon"/>
+            android:src="@drawable/tumblricon"
+            android:layout_weight="1"/>
 
     </LinearLayout>
 </LinearLayout>

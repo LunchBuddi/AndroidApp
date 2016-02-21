@@ -8,7 +8,7 @@
     android:layout_centerHorizontal="true">
 
     <!-- Author: Emily Black -->
-    <!-- Edited: 1/11/16 -->
+    <!-- Edited: 2/21/16 -->
 
     <LinearLayout
         android:id="@+id/linearlayout11"
@@ -47,7 +47,7 @@
 
     <LinearLayout
         android:id="@+id/linearlayout22"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center_horizontal"
@@ -60,10 +60,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/editinterestsBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/editinterests"
             android:onClick="methodToEditInterests"
-            android:src="@drawable/editinterestsbutton"/>
+            android:src="@drawable/editinterestsbutton"
+            android:layout_weight="1" />
 
         <ImageButton
             android:paddingLeft="25dp"
@@ -72,15 +73,16 @@
             android:paddingBottom="25dp"
             android:id="@+id/editmajorBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/editmajorButton"
             android:onClick="methodToEditMajor"
-            android:src="@drawable/editmajorbutton"/>
+            android:src="@drawable/editmajorbutton"
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearlayout33"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center_horizontal"
@@ -93,10 +95,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/editgradyearBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/editgradyearbutton"
             android:onClick="methodToEditGradYear"
-            android:src="@drawable/editgradyearbutton"/>
+            android:src="@drawable/editgradyearbutton"
+            android:layout_weight="1"/>
 
         <ImageButton
             android:paddingLeft="25dp"
@@ -105,15 +108,16 @@
             android:paddingBottom="25dp"
             android:id="@+id/editavailabilityBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/editavailabilityButton"
             android:onClick="methodToEditAvailability"
-            android:src="@drawable/editavailabilitybutton"/>
+            android:src="@drawable/editavailabilitybutton"
+            android:layout_weight="1"/>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearlayout44"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center_horizontal"
@@ -126,10 +130,11 @@
             android:paddingBottom="25dp"
             android:id="@+id/editfavplacestoeatBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/editfavplacestoeatbutton"
             android:onClick="methodToEditFavoritePlacesToEat"
-            android:src="@drawable/editfavplacestoeatbutton"/>
+            android:src="@drawable/editfavplacestoeatbutton"
+            android:layout_weight="1"/>
 
         <ImageButton
             android:paddingLeft="25dp"
@@ -138,9 +143,10 @@
             android:paddingBottom="25dp"
             android:id="@+id/editcurrentclubsBUTTON"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:contentDescription="@string/editcurrentclubsbutton"
             android:onClick="methodToEditCurrentClubsTheyreIn"
-            android:src="@drawable/editcurrentclubsbutton"/>
+            android:src="@drawable/editcurrentclubsbutton"
+            android:layout_weight="1"/>
     </LinearLayout>
 </LinearLayout>
