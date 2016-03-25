@@ -4,7 +4,7 @@ import java.util.*;
 /**
  * Person.java ~ This class holds the basic info of what a user has.
  * @author Emily
- * @date 3/20/2016
+ * @date 3/25/2016
  */
 public class Person
 {
@@ -122,7 +122,7 @@ public class Person
      */
     public ArrayList<String> getInterests()
     {
-        return getInterests();
+        return interests;
     }
 
     /**
