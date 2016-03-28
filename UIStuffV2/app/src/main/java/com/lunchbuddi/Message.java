@@ -32,6 +32,9 @@ public class Message
     public Message(String title)
     {
         this.title = title;
+        students = null;
+        sender = null;
+        contents = null;
     }
 
     /**
@@ -43,6 +46,8 @@ public class Message
     {
         this.title = title;
         this.contents = contents;
+        students = null;
+        sender = null;
     }
 
     /**
@@ -56,6 +61,7 @@ public class Message
         this.title = title;
         this.contents = contents;
         this.sender = sender;
+        students = null;
     }
 
     /**
